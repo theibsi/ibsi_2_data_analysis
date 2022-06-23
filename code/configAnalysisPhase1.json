@@ -1,0 +1,8 @@
+{
+  "folderName": "submissions-2021-09-20",
+  "folderLocation": "../data",
+  "savedir" : "../results",
+  "tol": 1,
+  "saveCRMs": 1, 
+  "exhaustivePlot": 0 
+}
