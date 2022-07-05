@@ -9,9 +9,14 @@ function [dataCell,teamInfo] = batch_import_team_files(fileDIR)
 % find all unique teams
 % ----------------------------------
 filelist  = dir(fullfile(fileDIR, '**/*.nii'));
-teamNames = cellfun(@(s) strsplit(s,'-'), {filelist.name}, 'UniformOutput', false);
-teamInfo  = unique(cellfun(@(x) x{1},teamNames,'UniformOutput',false))';
-nteams    = size(teamInfo,1);
+teamNames = cellfun(@(s) regexp(s, '(?<name>.*)-[0-9]+-.*\..*', 'names').name, {filelist.name}, 'UniformOutput', false);
+uniqueTeamNames = unique(cellfun(@(x) x,teamNames,'UniformOutput',false))';
+nteams = size(uniqueTeamNames, 1);
+
+% case-insensitive sort of team names
+[~, idx]  = sort(upper(uniqueTeamNames));
+teamInfo  = teamNames(idx)';
+
 
 % Assign ID and colour
 % ----------------------------------

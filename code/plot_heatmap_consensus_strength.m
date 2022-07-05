@@ -67,7 +67,6 @@ end
 
 
 %plot heatmap 
-teamList = strrep(teamList,'UK', 'UK-Augsburg');
 % Settings 
 gridline = '--'; % gridline examples  :, -, -. or --.
 % Create a custom colormap 
