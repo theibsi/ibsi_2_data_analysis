@@ -67,6 +67,10 @@ writetable(rT ,saveName,'WriteMode','replacefile');
 plot_bar_chart_consensus_strength(resultsCell,nEmptyTests,options.folderName, options.savedir);
 plot_heatmap_consensus_strength(dataCell,validTeamsDataCell,teamInfo,options.folderName,options.savedir);
 
+if (ismcc || isdeployed)
+    exit
+end
+
 end
 
 
