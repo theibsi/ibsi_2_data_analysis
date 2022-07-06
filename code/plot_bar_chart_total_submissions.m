@@ -31,9 +31,6 @@ ax = gca;
 ax.XTick = 1:ntests;
 ax.XTickLabel = n_dataCell(:,1);
 
-% manually replace name of Elli (no longer needed)
-teamInfo(:,1) = strrep(teamInfo(:,1),'UK', 'UK-Augsburg');
-%teamInfo(:,1) = strrep(teamInfo(:,1),'Elli', 'UK-Augsburg');
 legend(teamInfo(:,1),'Orientation','horizontal','Location','north')
 box off;
 ylim([0,nteams+1])

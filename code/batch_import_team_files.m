@@ -55,8 +55,7 @@ for it=1:numel(filterTests)
         try
             % current file info
             crrntFile  = fullfile(fls(i).folder, fls(i).name);
-            crrntTeam  = strsplit(fls(i).name,'-');
-            dataS(i).name  = crrntTeam{1};
+            dataS(i).name  = regexp(fls(i).name, '(?<name>.*)-[0-9]+-.*\..*', 'names').name;
             
             % load in response map
             [dataS(i).responseMap, dataS(i).info] = nifti_Extract(crrntFile);

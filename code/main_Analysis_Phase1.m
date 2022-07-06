@@ -13,7 +13,7 @@ clear; close('all'); clc;
 
 % DATA IMPORT
 % -------------------------------------------------------------------------
-folderName =  'submissions-2022-06-23'; 
+folderName =  'submissions-2022-07-06'; 
 f_dir = fullfile('..','data',folderName); 
 unzip_teamFiles(f_dir);  
 [dataCell,teamInfo] = batch_import_team_files(f_dir);
