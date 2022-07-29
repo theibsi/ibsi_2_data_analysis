@@ -1,8 +1,26 @@
 {
   "folderName": "submissions-2022-07-06",
   "folderLocation": "../data",
-  "savedir" : "../results",
+  "savedir": "../results",
   "tol": 1,
-  "saveCRMs": 1, 
-  "exhaustivePlot": 0 
+  "saveCRMs": 1,
+  "exhaustivePlot": 0,
+  "teams": [
+    "Cardiff University",
+    "CERR",
+    "Joyce-Air",
+    "King's College London",
+    "LaTIM",
+    "LIFEx",
+    "McGill",
+    "moddicom",
+    "NCT Dresden",
+    "Qurit SERA",
+    "UCSF",
+    "UdeS",
+    "UK-Augsburg",
+    "UPenn",
+    "USZ",
+    "Veneto Institute of Oncology"
+  ]
 }

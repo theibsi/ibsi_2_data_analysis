@@ -24,10 +24,15 @@ options.savedir = check_Dir(options.savedir);
 % data import
 % -------------------------------------------------------------------------
 folderName =  options.folderName;
-f_dir      = fullfile(options.folderLocation,folderName); 
+f_dir      = fullfile(options.folderLocation,folderName);
+unzip_teamFiles(f_dir);
 
-unzip_teamFiles(f_dir);  
-[dataCell,teamInfo] = batch_import_team_files(f_dir);
+% If team names are provided in the configuration, use them
+if isfield(options, 'teams')
+    [dataCell,teamInfo] = batch_import_team_files(f_dir, options.teams);
+else
+    [dataCell,teamInfo] = batch_import_team_files(f_dir);
+end
 
 % Consensus assessment for each filter test 
 % -------------------------------------------------------------------------

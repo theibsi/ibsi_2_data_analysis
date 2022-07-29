@@ -1,4 +1,4 @@
-function [dataCell,teamInfo] = batch_import_team_files(fileDIR)
+function [dataCell,teamInfo] = batch_import_team_files(fileDIR, teams)
 % -------------------------------------------------------------------------
 % FOR IBSI2 Data Analysis - read in files into a dataCell.
 %
@@ -6,16 +6,26 @@ function [dataCell,teamInfo] = batch_import_team_files(fileDIR)
 % @uthor: PWhybra
 % -------------------------------------------------------------------------
 
-% find all unique teams
-% ----------------------------------
-filelist  = dir(fullfile(fileDIR, '**/*.nii'));
-teamNames = cellfun(@(s) regexp(s, '(?<name>.*)-[0-9]+-.*\..*', 'names').name, {filelist.name}, 'UniformOutput', false);
-uniqueTeamNames = unique(cellfun(@(x) x,teamNames,'UniformOutput',false))';
-nteams = size(uniqueTeamNames, 1);
+if nargin < 2
+    teams = {};
+end
 
-% case-insensitive sort of team names
-[~, idx]  = sort(upper(uniqueTeamNames));
-teamInfo  = teamNames(idx)';
+filelist  = dir(fullfile(fileDIR, '**/*.nii'));
+
+% find all unique teams (or use the ones passed as argument)
+% ----------------------------------------------------
+if size(teams, 1) > 0
+    teamInfo = teams;
+    nteams = size(teams, 1);
+else
+    teamNames = cellfun(@(s) regexp(s, '(?<name>.*)-[0-9]+-.*\..*', 'names').name, {filelist.name}, 'UniformOutput', false);
+    uniqueTeamNames = unique(cellfun(@(x) x,teamNames,'UniformOutput',false))';
+
+    % case-insensitive sort of team names
+    [~, idx]  = sort(upper(uniqueTeamNames));
+    teamInfo  = teamNames(idx)';
+    nteams = size(uniqueTeamNames, 1);
+end
 
 
 % Assign ID and colour
