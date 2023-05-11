@@ -1,2 +1,2 @@
 # ibsi_2_data_analysis
-Scripts used to perform the data analysis for the second IBSI study (filters).
+Scripts used to perform the data analysis for the second chapter of the Image Biomarker Standardisation Initiative concerning convolutional filters. The `code` directory contains the code used to create tentative reference response maps, create the various figures shown on the phase 1 landing page, and to perform one-to-one comparisons of response maps. The `results` paper contains code and data used to generate the results presented in the IBSI 2 manuscript.
