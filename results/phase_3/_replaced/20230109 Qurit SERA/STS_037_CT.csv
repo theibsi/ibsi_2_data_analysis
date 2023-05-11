@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,28.597,28.831,0.12353,55.39,73.418,-0.00046565,14.001,-0.22375,-0.68884
+Statistics,Variance,stat_var,ECT3,830.29,326.08,1.975,494.88,2057.8,3.765,92.889,350.08,255.64
+Statistics,Skewness,stat_skew,KE2A,-0.03311,0.4337,1.6236,2.8366,0.79072,0.011297,3.2088,-0.24199,-1.8418
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,2.3349,12.239,15.304,11.513,-0.097173,0.81278,21.829,1.7165,12.511
+Statistics,Median,stat_median,Y12H,29.0,28.926,0.002181,52.825,63.394,-0.0076913,12.061,-0.077448,-0.090569
+Statistics,Minimum,stat_min,1GSF,-200.0,-133.0,-27.875,17.033,0.032272,-12.333,-8.5179,-194.86,-197.36
+Statistics,10th percentile,stat_p10,QG58,-6.0,10.926,-0.90933,35.273,22.653,-2.3847,5.2328,-23.028,-15.048
+Statistics,90th percentile,stat_p90,8DWT,63.0,47.185,0.93556,69.003,142.9,2.395,24.227,22.756,15.18
+Statistics,Maximum,stat_max,84IY,200.0,199.93,13.593,199.99,200.0,11.212,185.9,112.04,147.99
+Statistics,Interquartile range,stat_iqr,SALO,35.0,19.074,0.81054,13.259,61.817,2.3704,9.5295,22.999,14.732
+Statistics,Range,stat_range,2OJQ,400.0,332.93,41.468,182.96,199.97,23.545,194.42,306.9,345.35
+Statistics,Mean absolute deviation,stat_mad,4FUA,21.804,12.383,0.77528,12.761,36.752,1.4919,6.4837,14.35,10.461
+Statistics,Robust mean absolute deviation,stat_rmad,1128,14.74,7.8984,0.34825,5.8982,26.074,0.99389,4.0236,9.6195,6.208
+Statistics,Median absolute deviation,stat_medad,N72L,21.8,12.383,0.76507,12.479,35.893,1.4919,6.2778,14.349,10.448
+Statistics,Coefficient of variation,stat_cov,7TET,1.0076,0.62634,11.377,0.40162,0.61787,-4167.0,0.68839,-83.621,-23.211
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.61404,0.32782,-59.821,0.12648,0.4458,-856.42,0.3733,-149.61,-223.12
+Statistics,Energy,stat_energy,N8CA,1209900000.0,849290000.0,1461100.0,2599600000.0,5057500000.0,2764000.0,212090000.0,257040000.0,188020000.0
+Statistics,Root mean square,stat_rms,5ZWQ,40.597,34.019,1.4108,59.69,86.301,1.9404,16.997,18.712,16.004

@@ -1,0 +1,507 @@
+Filter ID,Metric Category,Metric Name,Qurit SERA,Veneto Institute of Oncology - IOV IRCCS Padua,UPenn,LIFEx,UdeS,Cardiff University,NCT Dresden
+1.A,Diagnostic,Number of voxels in ROI before interpolation,125256,,125256,125256,,125256,125256
+1.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,125238,,125238,125238,,125238,125238
+1.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,-46.975639,,-46.97564,,,-46.9756,-46.97564
+1.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,377,,377,,,377,377
+1.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,-1000,,-1000,,,-1000,-1000
+1.A,Statistics,Mean,-46.975639,-46.97586994,-46.97564,-46.975638384516,,-46.9756,-46.97564
+1.A,Statistics,Variance,53338.75,53338.75087,53338.746,53338.749697957,,53338.7497,53338.75
+1.A,Statistics,Skewness,-2.166831,-2.166827968,-2.166831255,-2.16683104266542,,-2.1668,-2.16683120361036
+1.A,Statistics,(Excess) kurtosis,3.6450641,3.645055057,3.645064726,3.64506403786339,,3.6451,3.64506472618102
+1.A,Statistics,Median,41,41,41,41,,41,41
+1.A,Statistics,Minimum,-1000,-1000,-1000,-1000,,-1000,-1000
+1.A,Statistics,10th percentile,-434,-434,-434,-434,,-434,-434
+1.A,Statistics,90th percentile,93,93,93,93,,93,93
+1.A,Statistics,Maximum,377,377,377,377,,377,377
+1.A,Statistics,Interquartile range,69,69,69,69,,69,69
+1.A,Statistics,Range,1377,1377,1377,1377,,1377,1377
+1.A,Statistics,Mean absolute deviation,160.08925,160.0894187,160.08925,160.089241918337,,160.0892,160.08925
+1.A,Statistics,Robust mean absolute deviation,64.422737,64.42318395,64.37938,64.4227368932668,,64.4227,64.42274
+1.A,Statistics,Median absolute deviation,121.74351,121.7437359,121.74351,121.743504367684,,121.7435,121.74351
+1.A,Statistics,Coefficient of variation,-4.9164171,-4.916392969,-4.916417,-4.91641714926983,,-4.9164,-4.916417
+1.A,Statistics,Quartile coefficient of dispersion,1,1,1,1,,1,1
+1.A,Statistics,Energy,6960000000,6956405228,6956402700,6960000000,,6956402357,6956402700
+1.A,Statistics,Root mean square,235.68085,235.6808928,235.68085,235.680844150706,,235.6808,235.680849757797
+1.B,Diagnostic,Number of voxels in ROI before interpolation,125256,,,,125256,125256,125256
+1.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,357802,,,,357802,357802,357802
+1.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,-46.407845,,,,-46.4079,-46.4078,-46.407887
+1.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,377,,,,377,377,377
+1.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,-997,,,,-997,-997,-997
+1.B,Statistics,Mean,-46.407845,-46.40815311,,,-46.4078,-46.4078,-46.407887
+1.B,Statistics,Variance,52636.875,52636.87771,,,52636.84,52636.8652,52636.844
+1.B,Statistics,Skewness,-2.1793895,-2.179385157,,,-2.179,-2.1794,-2.17938876586772
+1.B,Statistics,(Excess) kurtosis,3.7125797,3.712567069,,,3.71257,3.7126,3.71257637425964
+1.B,Statistics,Median,41,41,,,41,41,41
+1.B,Statistics,Minimum,-997,-997,,,-997,-997,-997
+1.B,Statistics,10th percentile,-427,-427,,,-427,-427,-427
+1.B,Statistics,90th percentile,92,92,,,92,92,92
+1.B,Statistics,Maximum,377,377,,,377,377,377
+1.B,Statistics,Interquartile range,67,67,,,67,67,67
+1.B,Statistics,Range,1374,1374,,,1374,1374,1374
+1.B,Statistics,Mean absolute deviation,158.92223,158.9224811,,,158.922,158.9222,158.9222
+1.B,Statistics,Robust mean absolute deviation,63.596977,63.59757067,,,63.59697,63.597,63.59697
+1.B,Statistics,Median absolute deviation,120.54471,120.5450165,,,120.5447,120.5447,120.54472
+1.B,Statistics,Coefficient of variation,-4.9437175,-4.943684818,,,-4.9437,-4.9437,-4.9437118
+1.B,Statistics,Quartile coefficient of dispersion,0.94366199,0.943661972,,,0.94366,0.94366,0.943661971830986
+1.B,Statistics,Energy,19600000000,19604184252,,,19604164608,19604169558,19604165000
+1.B,Statistics,Root mean square,234.07384,234.073908,,,234.0738,234.0738,234.073790678774
+2.A,Diagnostic,Number of voxels in ROI before interpolation,125256,,125256,,,125256,125256
+2.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,125238,,125237,,,125238,125238
+2.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,-46.975639,,-46.96803,,,-46.9756,-46.97564
+2.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,377,,377,,,377,377
+2.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,-1000,,-970,,,-1000,-1000
+2.A,Statistics,Mean,-49.83297726,-49.88217186,-49.875805,,,-49.8816,-49.881645
+2.A,Statistics,Variance,46627.02353,46616.98367,46613.043,,,46616.9379,46616.938
+2.A,Statistics,Skewness,-2.125671799,-2.126564632,-2.12662912,,,-2.1266,-2.12657464822379
+2.A,Statistics,(Excess) kurtosis,3.526784787,3.527636058,3.527992665,,,3.5277,3.5276690969187
+2.A,Statistics,Median,38.08000183,38.08,38.079998,,,38.08,38.08
+2.A,Statistics,Minimum,-888.9200439,-888.92,-888.92,,,-888.92,-888.92
+2.A,Statistics,10th percentile,-402.276001,-402.4,-402.2799988,,,-402.364,-402.315997314453
+2.A,Statistics,90th percentile,79.88000488,79.84,79.83999634,,,79.84,79.8400039672852
+2.A,Statistics,Maximum,348.6400146,334.16,334.16,,,334.16,334.16
+2.A,Statistics,Interquartile range,81.96000481,82,81.95999908,,,82,81.9900002479553
+2.A,Statistics,Range,1237.560059,1223.08,1223.079987,,,1223.08,1223.08
+2.A,Statistics,Mean absolute deviation,152.5871483,152.587715,152.57912,,,152.5869,152.5869
+2.A,Statistics,Robust mean absolute deviation,67.70184754,67.73782973,67.73083,,,67.7297,67.7294
+2.A,Statistics,Median absolute deviation,115.8470122,115.8281544,115.82201,,,115.8276,115.82763
+2.A,Statistics,Coefficient of variation,-4.333132923,-4.328393441,-4.328763,,,-4.3284,-4.328437
+2.A,Statistics,Quartile coefficient of dispersion,1.847610463,1.850180505,1.847610414,,,1.8502,1.84953758788613
+2.A,Statistics,Energy,6151365893,6149838884,6149216000,,,6149826557.2512,6149826000
+2.A,Statistics,Root mean square,221.6085494,221.5969647,221.58664,,,221.5967,221.59673339261
+2.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,125256,125256,125256
+2.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,357802,357802,357802
+2.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-46.4079,-46.4078,-46.407887
+2.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,377,377,377
+2.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-997,-997,-997
+2.B,Statistics,Mean,,-49.89275738,,,-49.893,-49.8929,-49.89299
+2.B,Statistics,Variance,,44392.52034,,,44392.7267,44392.7319,44392.727
+2.B,Statistics,Skewness,,-2.128618219,,,-2.1286,-2.1286,-2.12861413987223
+2.B,Statistics,(Excess) kurtosis,,3.586284605,,,3.586,3.5863,3.58625547768484
+2.B,Statistics,Median,,37.336,,,37.336,37.336,37.336
+2.B,Statistics,Minimum,,-905.832,,,-906.176,-906.176,-906.176
+2.B,Statistics,10th percentile,,-389.32,,,-389.315,-389.3224,-389.31520690918
+2.B,Statistics,90th percentile,,77.248,,,77.248,77.248,77.2480010986328
+2.B,Statistics,Maximum,,316.312,,,316.312,316.312,316.312
+2.B,Statistics,Interquartile range,,92.584,,,92.584,92.584,92.5839977264404
+2.B,Statistics,Range,,1222.144,,,1222.488,1222.488,1222.488
+2.B,Statistics,Mean absolute deviation,,149.3417257,,,149.342,149.342,149.342
+2.B,Statistics,Robust mean absolute deviation,,68.13491604,,,68.1332,68.1348,68.13209
+2.B,Statistics,Median absolute deviation,,113.8106817,,,113.811,113.8109,113.810875
+2.B,Statistics,Coefficient of variation,,-4.222964152,,,-4.223,-4.223,-4.2229543
+2.B,Statistics,Quartile coefficient of dispersion,,2.972771641,,,2.973,2.9728,2.97277165433898
+2.B,Statistics,Energy,,16774404516,,,16774486663.150084,16774486988.6725,16774488000
+2.B,Statistics,Root mean square,,216.5220718,,,216.5226,216.5226,216.522611022902
+3.A,Diagnostic,Number of voxels in ROI before interpolation,125256,,,,,125256,125256
+3.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,125238,,,,,125238,125238
+3.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,-46.975639,,,,,-46.9756,-46.97564
+3.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,377,,,,,377,377
+3.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,-1000,,,,,-1000,-1000
+3.A,Statistics,Mean,-2.435624816,-2.440828532,,,,-2.4409,-2.42342669122262
+3.A,Statistics,Variance,556.6838706,555.6834357,,,,555.6829,555.694304062625
+3.A,Statistics,Skewness,0.295807557,0.295290381,,,,0.2953,0.302421044303604
+3.A,Statistics,(Excess) kurtosis,7.008434381,7.016054432,,,,7.0161,7.01647959269611
+3.A,Statistics,Median,-0.594810337,-0.584889991,,,,-0.58489,-0.594275906588928
+3.A,Statistics,Minimum,-177.9313965,-178.050192,,,,-178.0502,-177.931402545937
+3.A,Statistics,10th percentile,-27.07107868,-27.1028018,,,,-27.102,-27.0456084623803
+3.A,Statistics,90th percentile,13.33479853,13.23564633,,,,13.2345,13.3378009367678
+3.A,Statistics,Maximum,190.7259674,190.6672801,,,,190.6673,190.725970944352
+3.A,Statistics,Interquartile range,8.743124127,8.744062977,,,,8.7437,8.73834168899636
+3.A,Statistics,Range,368.6573639,368.7174721,,,,368.7175,368.657373490289
+3.A,Statistics,Mean absolute deviation,13.15763534,13.15075255,,,,13.1507,13.1442765559711
+3.A,Statistics,Robust mean absolute deviation,4.974899317,4.977163305,,,,4.9768,4.97081263861283
+3.A,Statistics,Median absolute deviation,12.91380875,12.9032334,,,,12.9032,12.9032020548582
+3.A,Statistics,Coefficient of variation,-9.687103254,-9.657761011,,,,-9.6576,-9.72720538297709
+3.A,Statistics,Quartile coefficient of dispersion,-2.918042173,-2.931071783,,,,-2.9306,-2.92209970182417
+3.A,Statistics,Energy,70471047.09,70338805.53,,,,70338761.7462,70329565.6414301
+3.A,Statistics,Root mean square,23.71953075,23.6989679,,,,23.699,23.6974112719165
+3.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,125256,125256,125256
+3.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,357802,357802,357802
+3.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-46.4079,-46.4078,-46.407887
+3.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,377,377,377
+3.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-997,-997,-997
+3.B,Statistics,Mean,,-2.941989768,,,-2.9423,-2.9424,-2.9240308
+3.B,Statistics,Variance,,719.6785509,,,719.658,719.7031,719.82465
+3.B,Statistics,Skewness,,0.422253989,,,0.422,0.42212,0.428117324325902
+3.B,Statistics,(Excess) kurtosis,,6.133237964,,,6.133,6.1333,6.13288147363948
+3.B,Statistics,Median,,-0.919226962,,,-0.9193,-0.9193,-0.926867
+3.B,Statistics,Minimum,,-172.9069655,,,-172.902,-172.907,-172.77899
+3.B,Statistics,10th percentile,,-32.15648319,,,-32.1556,-32.1572,-32.1093559265137
+3.B,Statistics,90th percentile,,17.39181793,,,17.3904,17.3913,17.4894605636597
+3.B,Statistics,Maximum,,204.2998042,,,204.2926,204.2998,204.30116
+3.B,Statistics,Interquartile range,,11.44599886,,,11.4456,11.4459,11.4281669855118
+3.B,Statistics,Range,,377.2067697,,,377.195,377.2068,377.08014
+3.B,Statistics,Mean absolute deviation,,15.49636859,,,15.496,15.4966,15.491051
+3.B,Statistics,Robust mean absolute deviation,,6.368737664,,,6.368,6.3688,6.3618975
+3.B,Statistics,Median absolute deviation,,15.26049334,,,15.26,15.2607,15.2609825
+3.B,Statistics,Coefficient of variation,,-9.118599087,,,-9.1175,-9.1175,-9.175535
+3.B,Statistics,Quartile coefficient of dispersion,,-2.338985284,,,-2.3389,-2.3389,-2.33637922927698
+3.B,Statistics,Energy,,260599309.9,,,260592643.844,260608959.4237,260613900
+3.B,Statistics,Root mean square,,26.98766116,,,26.9873,26.9882,26.9884168294281
+4.A,Diagnostic,Number of voxels in ROI before interpolation,,,125256,,,125256,125256
+4.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,125237,,,125238,125238
+4.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,-46.96803,,,-46.9756,-46.97564
+4.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,377,,,377,377
+4.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,-970,,,-1000,-1000
+4.A,Statistics,Mean,,148.2584965,147.57199,,,148.258,148.258
+4.A,Statistics,Variance,,17953.85665,10468.735,,,17953.6433,17953.643
+4.A,Statistics,Skewness,,0.877056194,0.654859413,,,0.87706,0.877055115544125
+4.A,Statistics,(Excess) kurtosis,,-0.278790332,-0.236762671,,,-0.27877,-0.278771453450202
+4.A,Statistics,Median,,88.71640905,136.30032,,,88.7164,88.71641
+4.A,Statistics,Minimum,,15.45202758,23.274067,,,15.452,15.452027
+4.A,Statistics,10th percentile,,26.8768017,29.91450996,,,26.877,26.8771549224854
+4.A,Statistics,90th percentile,,346.9715542,289.0699585,,,346.961,346.959921264649
+4.A,Statistics,Maximum,,672.2096473,538.5091,,,672.2096,672.20966
+4.A,Statistics,Interquartile range,,219.2627343,169.5374489,,,219.2627,219.260135650635
+4.A,Statistics,Range,,656.7576197,515.2350273,,,656.7576,656.7576
+4.A,Statistics,Mean absolute deviation,,116.0731378,85.71643,,,116.0725,116.07253
+4.A,Statistics,Robust mean absolute deviation,,92.89377982,66.59835,,,92.892,92.89201
+4.A,Statistics,Median absolute deviation,,110.7338835,85.34243,,,110.7334,110.73338
+4.A,Statistics,Coefficient of variation,,0.903772838,0.6933351,,,0.90377,0.90377057
+4.A,Statistics,Quartile coefficient of dispersion,,0.77304736,0.637427143,,,0.77305,0.773045275169196
+4.A,Statistics,Energy,,5001309200,4038421200,,,5001263503.7244,5001263600
+4.A,Statistics,Root mean square,,199.8360289,179.57236,,,199.8351,199.835118160564
+4.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,125256,125256,125256
+4.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,357802,357802,357802
+4.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-46.4079,-46.4078,-46.407887
+4.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,377,377,377
+4.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-997,-997,-997
+4.B,Statistics,Mean,,141.822426,,,141.8281,141.8281,141.82814
+4.B,Statistics,Variance,,11116.99477,,,11118.635,11118.6441,11118.636
+4.B,Statistics,Skewness,,0.644449835,,,0.64454,0.64454,0.644541004799495
+4.B,Statistics,(Excess) kurtosis,,-0.710924916,,,-0.710682,-0.71068,-0.710681742104918
+4.B,Statistics,Median,,113.1405898,,,113.14,113.1406,113.14046
+4.B,Statistics,Minimum,,28.46269247,,,28.46269,28.4627,28.462692
+4.B,Statistics,10th percentile,,35.570524,,,35.57056,35.5705,35.5705596923828
+4.B,Statistics,90th percentile,,292.6082612,,,292.624,292.625,292.624209594727
+4.B,Statistics,Maximum,,524.6400168,,,524.803,524.8027,524.80304
+4.B,Statistics,Interquartile range,,187.6421514,,,187.6552,187.6549,187.655222892761
+4.B,Statistics,Range,,496.1773243,,,496.34,496.34,496.34033
+4.B,Statistics,Mean absolute deviation,,92.44274497,,,92.44877,92.4488,92.44878
+4.B,Statistics,Robust mean absolute deviation,,75.91634238,,,75.91987,75.9203,75.91987
+4.B,Statistics,Median absolute deviation,,90.80811596,,,90.8137,90.8137,90.813705
+4.B,Statistics,Coefficient of variation,,0.743444907,,,0.74347,0.74347,0.7434698
+4.B,Statistics,Quartile coefficient of dispersion,,0.699243129,,,0.6992,0.69926,0.699258438182395
+4.B,Statistics,Energy,,11174369460,,,11175535481.688,11175537257.8891,11175536000
+4.B,Statistics,Root mean square,,176.721802,,,176.731,176.731,176.731023091286
+5.A,Diagnostic,Number of voxels in ROI before interpolation,125256,,125256,,,,125256
+5.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,125238,,125237,,,,125238
+5.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,-46.975639,,-46.96803,,,,-46.97564
+5.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,377,,377,,,,377
+5.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,-1000,,-970,,,,-1000
+5.A,Statistics,Mean,102.9973479,102.9944702,166.24176,,,,102.994231731088
+5.A,Statistics,Variance,1036.260539,1036.246197,4327.807,,,,1036.23174015356
+5.A,Statistics,Skewness,1.313791536,1.313975412,0.97601835,,,,1.31400464739952
+5.A,Statistics,(Excess) kurtosis,2.840712731,2.841486784,0.641927134,,,,2.8416678233973
+5.A,Statistics,Median,97.0416069,97.03680815,149.03426,,,,97.0373250044177
+5.A,Statistics,Minimum,31.37236977,31.37248216,56.452175,,,,31.3723690777723
+5.A,Statistics,10th percentile,68.80563583,68.80185376,97.26826477,,,,68.8033936596751
+5.A,Statistics,90th percentile,144.570459,144.5666157,259.9196167,,,,144.564992377068
+5.A,Statistics,Maximum,353.6989441,353.6986176,589.5631,,,,353.698943330929
+5.A,Statistics,Interquartile range,37.18272781,37.18099448,95.14873505,,,,37.178733933154
+5.A,Statistics,Range,322.3265743,322.3261355,533.1109352,,,,322.326574253157
+5.A,Statistics,Mean absolute deviation,24.20740596,24.20687257,53.85845,,,,24.2065908756777
+5.A,Statistics,Robust mean absolute deviation,15.75848309,15.75845031,39.457027,,,,15.7577171374309
+5.A,Statistics,Median absolute deviation,23.70269102,23.70192599,52.472534,,,,23.7016880689493
+5.A,Statistics,Coefficient of variation,0.312542037,0.312548606,0.3957253,,,,0.312547149919458
+5.A,Statistics,Quartile coefficient of dispersion,0.186864911,0.186865607,0.296347515,,,,0.186855366546931
+5.A,Statistics,Energy,1458570323,1458284684,4003092000,,,,1458276721.10922
+5.A,Statistics,Root mean square,107.910677,107.9078639,178.78516,,,,107.907569289789
+5.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,125256,,125256
+5.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,357802,,357802
+5.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-46.4079,,-46.407887
+5.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,377,,377
+5.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-997,,-997
+5.B,Statistics,Mean,,40.24493405,,,40.2375,,40.2379032214824
+5.B,Statistics,Variance,,230.7142145,,,230.498,,230.521307459199
+5.B,Statistics,Skewness,,1.57413709,,,1.574,,1.57457519044483
+5.B,Statistics,(Excess) kurtosis,,4.331736313,,,4.3346,,4.33728391366245
+5.B,Statistics,Median,,37.1958125,,,37.19,,37.1903341924523
+5.B,Statistics,Minimum,,9.534713695,,,9.5346,,9.53481116734979
+5.B,Statistics,10th percentile,,24.62849016,,,24.628,,24.6280471905411
+5.B,Statistics,90th percentile,,59.29975581,,,59.2853,,59.2871705530865
+5.B,Statistics,Maximum,,174.4218834,,,174.545,,174.545448348438
+5.B,Statistics,Interquartile range,,17.36024161,,,17.3507,,17.351200676222
+5.B,Statistics,Range,,164.8871697,,,165.010667,,165.010637181088
+5.B,Statistics,Mean absolute deviation,,11.28211272,,,11.277,,11.2769775798218
+5.B,Statistics,Robust mean absolute deviation,,7.312086352,,,7.3084,,7.30862857785489
+5.B,Statistics,Median absolute deviation,,10.99801676,,,10.9928,,10.9931716322447
+5.B,Statistics,Coefficient of variation,,0.377420909,,,0.377,,0.377329009285067
+5.B,Statistics,Quartile coefficient of dispersion,,0.225601112,,,0.2255,,0.225520774951137
+5.B,Statistics,Energy,,662065704.4,,,661773541.0115728,,661794215.584871
+5.B,Statistics,Root mean square,,43.01591486,,,43.00642,,43.007094334779
+6.A,Diagnostic,Number of voxels in ROI before interpolation,125256,,,,,125256,125256
+6.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,125238,,,,,125238,125238
+6.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,-46.975639,,,,,-46.9756,-46.97564
+6.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,377,,,,,377,377
+6.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,-1000,,,,,-1000,-1000
+6.A,Statistics,Mean,-0.202304536,-0.185343074,,,,-0.18505,-0.18504779
+6.A,Statistics,Variance,429.4879338,427.2981837,,,,427.2793,427.2793
+6.A,Statistics,Skewness,0.050029728,0.083617313,,,,0.083694,0.0836939768380343
+6.A,Statistics,(Excess) kurtosis,7.857908454,7.721159968,,,,7.7218,7.72181806721068
+6.A,Statistics,Median,0.044741154,0.045594447,,,,0.045594,0.045594454
+6.A,Statistics,Minimum,-245.1463928,-245.1464023,,,,-245.1464,-245.1464
+6.A,Statistics,10th percentile,-18.86580429,-18.8453308,,,,-18.8451,-18.8450517654419
+6.A,Statistics,90th percentile,17.71660652,17.71751361,,,,17.7175,17.7174289703369
+6.A,Statistics,Maximum,201.6357727,201.6357755,,,,201.6358,201.63577
+6.A,Statistics,Interquartile range,15.77241516,15.77069163,,,,15.7707,15.7703542709351
+6.A,Statistics,Range,446.7821655,446.7821778,,,,446.7822,446.78217
+6.A,Statistics,Mean absolute deviation,13.04580866,13.03043543,,,,13.0301,13.030135
+6.A,Statistics,Robust mean absolute deviation,6.816902521,6.81546124,,,,6.8152,6.8151793
+6.A,Statistics,Median absolute deviation,13.04366876,13.02854647,,,,13.0283,13.028252
+6.A,Statistics,Coefficient of variation,-102.4400692,-111.5293479,,,,-111.7049,-111.70484
+6.A,Statistics,Quartile coefficient of dispersion,584.866979,491.1042602,,,,491.1043,490.975260349013
+6.A,Statistics,Energy,53801067.01,53518272.11,,,,53515894.2896,53515892
+6.A,Statistics,Root mean square,20.72507807,20.67202302,,,,20.6716,20.6715633428366
+6.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,125256,125256,125256
+6.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,357802,357802,357802
+6.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-46.4079,-46.4078,-46.407887
+6.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,377,377,377
+6.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-997,-997,-997
+6.B,Statistics,Mean,,-0.182103753,,,-0.182,-0.18203,-0.18203402
+6.B,Statistics,Variance,,250.4418451,,,250.441,250.4417,250.44107
+6.B,Statistics,Skewness,,0.156586008,,,0.15687,0.15687,0.156871078654632
+6.B,Statistics,(Excess) kurtosis,,8.98187515,,,8.98139,8.9814,8.98139703906639
+6.B,Statistics,Median,,0.057541837,,,0.0575,0.05756,0.057540063
+6.B,Statistics,Minimum,,-147.5236919,,,-147.52369,-147.5237,-147.5237
+6.B,Statistics,10th percentile,,-13.78133463,,,-13.781,-13.7818,-13.7812477111816
+6.B,Statistics,90th percentile,,12.15004107,,,12.1499,12.1497,12.149946975708
+6.B,Statistics,Maximum,,155.004999,,,155.005,155.005,155.005
+6.B,Statistics,Interquartile range,,9.349108501,,,9.3487,9.3491,9.34877157211304
+6.B,Statistics,Range,,302.5286909,,,302.529,302.5287,302.5287
+6.B,Statistics,Mean absolute deviation,,9.25785231,,,9.25779,9.2578,9.25779
+6.B,Statistics,Robust mean absolute deviation,,4.212607708,,,4.2125,4.2126,4.2125316
+6.B,Statistics,Median absolute deviation,,9.254337935,,,9.25427,9.2543,9.254276
+6.B,Statistics,Coefficient of variation,,-86.90295658,,,-86.9361,-86.936,-86.93611
+6.B,Statistics,Quartile coefficient of dispersion,,-161.5585252,,,-162.7282,-161.8128,-162.730702191235
+6.B,Statistics,Energy,,89620458.4,,,89620170.21979544,89620394.7781,89620184
+6.B,Statistics,Root mean square,,15.82640221,,,15.82637676,15.8264,15.8263779792712
+7.A,Diagnostic,Number of voxels in ROI before interpolation,,,,,,,125256
+7.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,,,125238
+7.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,-46.97564
+7.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,377
+7.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,-1000
+7.A,Statistics,Mean,,0.244178604,,,,,0.24465297
+7.A,Statistics,Variance,,1906.873504,,,,,1906.8704
+7.A,Statistics,Skewness,,0.046942677,,,,,0.0469152639452696
+7.A,Statistics,(Excess) kurtosis,,6.215525906,,,,,6.21555266962603
+7.A,Statistics,Median,,0.067265091,,,,,0.06753935
+7.A,Statistics,Minimum,,-348.836962,,,,,-348.83694
+7.A,Statistics,10th percentile,,-39.62659449,,,,,-39.6251384735107
+7.A,Statistics,90th percentile,,40.51851907,,,,,40.5180156707764
+7.A,Statistics,Maximum,,352.2799035,,,,,352.2799
+7.A,Statistics,Interquartile range,,28.76228202,,,,,28.7629585266113
+7.A,Statistics,Range,,701.1168655,,,,,701.1168
+7.A,Statistics,Mean absolute deviation,,26.94572201,,,,,26.945671
+7.A,Statistics,Robust mean absolute deviation,,13.03736235,,,,,13.036761
+7.A,Statistics,Median absolute deviation,,26.94511449,,,,,26.945065
+7.A,Statistics,Coefficient of variation,,178.835336,,,,,178.48845
+7.A,Statistics,Quartile coefficient of dispersion,,104.8422734,,,,,104.491982982026
+7.A,Statistics,Energy,,238820491,,,,,238820130
+7.A,Statistics,Root mean square,,43.66844544,,,,,43.6684122546754
+7.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,125256,,125256
+7.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,357802,,357802
+7.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-46.4079,,-46.407887
+7.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,377,,377
+7.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,-997,,-997
+7.B,Statistics,Mean,,-0.040513007,,,-0.0406,,-0.0406155
+7.B,Statistics,Variance,,422.335733,,,422.433,,422.43344
+7.B,Statistics,Skewness,,-0.011055745,,,-0.0111,,-0.0111719419359682
+7.B,Statistics,(Excess) kurtosis,,5.448049442,,,5.452,,5.45215514672445
+7.B,Statistics,Median,,-0.015771741,,,-0.0163,,-0.016351826
+7.B,Statistics,Minimum,,-202.8320056,,,-202.8246,,-202.82463
+7.B,Statistics,10th percentile,,-20.56380201,,,-20.56438,,-20.5643877029419
+7.B,Statistics,90th percentile,,20.44898875,,,20.4447,,20.4447439193726
+7.B,Statistics,Maximum,,200.7450633,,,200.7775,,200.77757
+7.B,Statistics,Interquartile range,,16.28704845,,,16.28886,,16.2888839244843
+7.B,Statistics,Range,,403.5770688,,,403.602,,403.6022
+7.B,Statistics,Mean absolute deviation,,13.44477851,,,13.44597,,13.445974
+7.B,Statistics,Robust mean absolute deviation,,7.202266394,,,7.2027,,7.2027335
+7.B,Statistics,Median absolute deviation,,13.44475627,,,13.4459,,13.445952
+7.B,Statistics,Coefficient of variation,,-507.2644561,,,-506.04287,,-506.04294
+7.B,Statistics,Quartile coefficient of dispersion,,-657.9739991,,,-694.91897,,-694.194407470254
+7.B,Statistics,Energy,,151113157.2,,,151148125.3503133,,151148110
+7.B,Statistics,Root mean square,,20.55084851,,,20.553,,20.5532252320538
+8.A,Diagnostic,Number of voxels in ROI before interpolation,125256,,,,,,125256
+8.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,125238,,,,,,125238
+8.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,-46.975639,,,,,,-46.97564
+8.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,377,,,,,,377
+8.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,-1000,,,,,,-1000
+8.A,Statistics,Mean,0.274950327,0.249243091,,,,,0.247614409603721
+8.A,Statistics,Variance,1552.766003,1541.917493,,,,,1547.16580688109
+8.A,Statistics,Skewness,-0.02908634,-0.048165688,,,,,-0.047334319969585
+8.A,Statistics,(Excess) kurtosis,8.205192494,8.19909196,,,,,8.18927400503676
+8.A,Statistics,Median,-0.028470993,-0.03072169,,,,,-0.0322713750129835
+8.A,Statistics,Minimum,-395.4387512,-395.9453021,,,,,-395.438766357496
+8.A,Statistics,10th percentile,-33.52290344,-33.39531092,,,,,-33.5269979200332
+8.A,Statistics,90th percentile,34.40415573,34.29617739,,,,,34.3634329750859
+8.A,Statistics,Maximum,369.6802979,407.7690749,,,,,407.954523875239
+8.A,Statistics,Interquartile range,24.82580042,24.81925455,,,,,24.8221007440942
+8.A,Statistics,Range,765.1190491,803.714377,,,,,803.393290232735
+8.A,Statistics,Mean absolute deviation,23.60091378,23.53943278,,,,,23.576409560815
+8.A,Statistics,Robust mean absolute deviation,11.1343749,11.12043196,,,,,11.1308737938256
+8.A,Statistics,Median absolute deviation,23.59870259,23.5375257,,,,,23.5745295620895
+8.A,Statistics,Coefficient of variation,143.3173493,157.5460214,,,,,158.851937071633
+8.A,Statistics,Quartile coefficient of dispersion,-580.4631019,-512.2993702,,,,,-426.567386318445
+8.A,Statistics,Energy,194501174.7,193114443,,,,,193771630.026623
+8.A,Statistics,Root mean square,39.40611121,39.26804827,,,,,39.3348079921198
+8.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,,,125256
+8.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,,,357802
+8.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,-46.407887
+8.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,377
+8.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,-997
+8.B,Statistics,Mean,,0.12153288,,,,,0.320233251193446
+8.B,Statistics,Variance,,1115.005271,,,,,1810.02087904295
+8.B,Statistics,Skewness,,-0.066964763,,,,,-0.0719095855292795
+8.B,Statistics,(Excess) kurtosis,,7.399323618,,,,,7.64455025312084
+8.B,Statistics,Median,,-0.026705788,,,,,-0.00178756160441118
+8.B,Statistics,Minimum,,-345.2354385,,,,,-411.430645164131
+8.B,Statistics,10th percentile,,-29.41270274,,,,,-36.6013691914269
+8.B,Statistics,90th percentile,,30.13876256,,,,,38.1414823138026
+8.B,Statistics,Maximum,,312.4536281,,,,,373.512073651897
+8.B,Statistics,Interquartile range,,24.14895456,,,,,25.4697791553223
+8.B,Statistics,Range,,657.6890667,,,,,784.942718816028
+8.B,Statistics,Mean absolute deviation,,20.83409086,,,,,25.3376678485689
+8.B,Statistics,Robust mean absolute deviation,,10.58704412,,,,,11.6801634926746
+8.B,Statistics,Median absolute deviation,,20.833569,,,,,25.3351905533487
+8.B,Statistics,Coefficient of variation,,274.7544099,,,,,132.854224207866
+8.B,Statistics,Quartile coefficient of dispersion,,-360.4073528,,,,,1475.23963471371
+8.B,Statistics,Energy,,398956400.8,,,,,647665782.920547
+8.B,Statistics,Root mean square,,33.39191581,,,,,42.5455453411767
+9.A,Diagnostic,Number of voxels in ROI before interpolation,125256,,,,,,125256
+9.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,125238,,,,,,125238
+9.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,-46.975639,,,,,,-46.97564
+9.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,377,,,,,,377
+9.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,-1000,,,,,,-1000
+9.A,Statistics,Mean,2.055872002,2.068413702,,,,,2.07831534847172
+9.A,Statistics,Variance,4562.6883,4564.317332,,,,,4578.67910606666
+9.A,Statistics,Skewness,-0.08513855,-0.059730643,,,,,-0.0596077394845828
+9.A,Statistics,(Excess) kurtosis,5.992149567,6.123321586,,,,,6.10807944552409
+9.A,Statistics,Median,0.141042709,0.054720045,,,,,0.140280027261507
+9.A,Statistics,Minimum,-534.461792,-534.8529166,,,,,-534.461814326499
+9.A,Statistics,10th percentile,-59.18501282,-58.93894928,,,,,-59.1847225863468
+9.A,Statistics,90th percentile,71.54909363,71.37118969,,,,,71.5268269174106
+9.A,Statistics,Maximum,398.0090942,469.3488187,,,,,470.105110786342
+9.A,Statistics,Interquartile range,34.24660397,33.98101904,,,,,34.238622416068
+9.A,Statistics,Range,932.4708862,1004.201735,,,,,1004.56692511284
+9.A,Statistics,Mean absolute deviation,40.04596314,39.9646744,,,,,40.0711056508092
+9.A,Statistics,Robust mean absolute deviation,17.6215886,17.52914327,,,,,17.6199341874566
+9.A,Statistics,Median absolute deviation,39.97352306,39.88431894,,,,,39.9968796911465
+9.A,Statistics,Coefficient of variation,32.85597266,32.66258172,,,,,32.5580704637449
+9.A,Statistics,Quartile coefficient of dispersion,46.47356092,49.14964461,,,,,46.9777994721947
+9.A,Statistics,Energy,571964990.2,572161784.1,,,,,573965566.237474
+9.A,Statistics,Root mean square,67.57895316,67.59138752,,,,,67.6978470909848
+9.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,,,125256
+9.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,,,357802
+9.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,-46.407887
+9.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,377
+9.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,-997
+9.B,Statistics,Mean,,1.609068842,,,,,2.67650565880452
+9.B,Statistics,Variance,,4437.423279,,,,,5490.61884369934
+9.B,Statistics,Skewness,,-0.050337592,,,,,-0.0858342568032938
+9.B,Statistics,(Excess) kurtosis,,6.040370888,,,,,5.57748249704611
+9.B,Statistics,Median,,0.292122285,,,,,0.232728649422583
+9.B,Statistics,Minimum,,-570.846297,,,,,-604.876913217054
+9.B,Statistics,10th percentile,,-59.28348461,,,,,-65.9382522191696
+9.B,Statistics,90th percentile,,69.04309176,,,,,82.8523021957585
+9.B,Statistics,Maximum,,478.4300913,,,,,471.302247822368
+9.B,Statistics,Interquartile range,,35.6326764,,,,,41.3688615847296
+9.B,Statistics,Range,,1049.276388,,,,,1076.17916103942
+9.B,Statistics,Mean absolute deviation,,39.79486854,,,,,45.1376077442495
+9.B,Statistics,Robust mean absolute deviation,,17.89428756,,,,,20.9609015611437
+9.B,Statistics,Median absolute deviation,,39.76230072,,,,,45.036518377444
+9.B,Statistics,Coefficient of variation,,41.39909081,,,,,27.6848695953401
+9.B,Statistics,Quartile coefficient of dispersion,,57.42953087,,,,,47.3905432338626
+9.B,Statistics,Energy,,1588645310,,,,,1967117583.45407
+9.B,Statistics,Root mean square,,66.6334179,,,,,74.1470331587243
+10.A,Diagnostic,Number of voxels in ROI before interpolation,,,,,,,
+10.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+10.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+10.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+10.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+10.A,Statistics,Mean,,-0.14841091,,,,,
+10.A,Statistics,Variance,,611.3396808,,,,,
+10.A,Statistics,Skewness,,-0.097549075,,,,,
+10.A,Statistics,(Excess) kurtosis,,9.440716909,,,,,
+10.A,Statistics,Median,,-0.001923937,,,,,
+10.A,Statistics,Minimum,,-260.4578721,,,,,
+10.A,Statistics,10th percentile,,-20.67607411,,,,,
+10.A,Statistics,90th percentile,,20.39216544,,,,,
+10.A,Statistics,Maximum,,272.6562766,,,,,
+10.A,Statistics,Interquartile range,,16.05364191,,,,,
+10.A,Statistics,Range,,533.1141488,,,,,
+10.A,Statistics,Mean absolute deviation,,14.77486574,,,,,
+10.A,Statistics,Robust mean absolute deviation,,7.090329334,,,,,
+10.A,Statistics,Median absolute deviation,,14.77411588,,,,,
+10.A,Statistics,Coefficient of variation,,-166.6001797,,,,,
+10.A,Statistics,Quartile coefficient of dispersion,,292.1946475,,,,,
+10.A,Statistics,Energy,,76565717.41,,,,,
+10.A,Statistics,Root mean square,,24.72572965,,,,,
+10.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,,,
+10.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+10.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+10.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+10.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+10.B,Statistics,Mean,,-0.161517985,,,,,
+10.B,Statistics,Variance,,547.9739903,,,,,
+10.B,Statistics,Skewness,,-0.08552706,,,,,
+10.B,Statistics,(Excess) kurtosis,,9.675477555,,,,,
+10.B,Statistics,Median,,0.012166267,,,,,
+10.B,Statistics,Minimum,,-251.8631139,,,,,
+10.B,Statistics,10th percentile,,-19.43169915,,,,,
+10.B,Statistics,90th percentile,,19.13256506,,,,,
+10.B,Statistics,Maximum,,239.924383,,,,,
+10.B,Statistics,Interquartile range,,14.29209727,,,,,
+10.B,Statistics,Range,,491.7874969,,,,,
+10.B,Statistics,Mean absolute deviation,,13.7539383,,,,,
+10.B,Statistics,Robust mean absolute deviation,,6.3923434,,,,,
+10.B,Statistics,Median absolute deviation,,13.75272286,,,,,
+10.B,Statistics,Coefficient of variation,,-144.9302642,,,,,
+10.B,Statistics,Quartile coefficient of dispersion,,1430.703094,,,,,
+10.B,Statistics,Energy,,196075524,,,,,
+10.B,Statistics,Root mean square,,23.4094015,,,,,
+11.A,Diagnostic,Number of voxels in ROI before interpolation,,,,,,,
+11.A,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+11.A,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+11.A,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+11.A,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+11.A,Statistics,Mean,,,,,,,
+11.A,Statistics,Variance,,,,,,,
+11.A,Statistics,Skewness,,,,,,,
+11.A,Statistics,(Excess) kurtosis,,,,,,,
+11.A,Statistics,Median,,,,,,,
+11.A,Statistics,Minimum,,,,,,,
+11.A,Statistics,10th percentile,,,,,,,
+11.A,Statistics,90th percentile,,,,,,,
+11.A,Statistics,Maximum,,,,,,,
+11.A,Statistics,Interquartile range,,,,,,,
+11.A,Statistics,Range,,,,,,,
+11.A,Statistics,Mean absolute deviation,,,,,,,
+11.A,Statistics,Robust mean absolute deviation,,,,,,,
+11.A,Statistics,Median absolute deviation,,,,,,,
+11.A,Statistics,Coefficient of variation,,,,,,,
+11.A,Statistics,Quartile coefficient of dispersion,,,,,,,
+11.A,Statistics,Energy,,,,,,,
+11.A,Statistics,Root mean square,,,,,,,
+11.B,Diagnostic,Number of voxels in ROI before interpolation,,,,,,,
+11.B,Diagnostic,Number of voxels in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+11.B,Diagnostic,Mean intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+11.B,Diagnostic,Max intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+11.B,Diagnostic,Min intensity in intensity ROI-mask after interpolation and resegmentation,,,,,,,
+11.B,Statistics,Mean,,,,,,,
+11.B,Statistics,Variance,,,,,,,
+11.B,Statistics,Skewness,,,,,,,
+11.B,Statistics,(Excess) kurtosis,,,,,,,
+11.B,Statistics,Median,,,,,,,
+11.B,Statistics,Minimum,,,,,,,
+11.B,Statistics,10th percentile,,,,,,,
+11.B,Statistics,90th percentile,,,,,,,
+11.B,Statistics,Maximum,,,,,,,
+11.B,Statistics,Interquartile range,,,,,,,
+11.B,Statistics,Range,,,,,,,
+11.B,Statistics,Mean absolute deviation,,,,,,,
+11.B,Statistics,Robust mean absolute deviation,,,,,,,
+11.B,Statistics,Median absolute deviation,,,,,,,
+11.B,Statistics,Coefficient of variation,,,,,,,
+11.B,Statistics,Quartile coefficient of dispersion,,,,,,,
+11.B,Statistics,Energy,,,,,,,
+11.B,Statistics,Root mean square,,,,,,,

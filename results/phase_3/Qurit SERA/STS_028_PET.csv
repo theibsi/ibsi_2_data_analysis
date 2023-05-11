@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,6.3473,6.2572,-0.26198,1.5234,2.2321,-2.6903e-05,0.27112,-0.0042385,0.17212
+Statistics,Variance,stat_var,ECT3,7.6243,6.4028,0.56349,0.096837,1.2579,0.00010898,0.0275,0.35394,1.6941
+Statistics,Skewness,stat_skew,KE2A,0.78741,0.74857,-0.92478,0.19296,0.78944,0.018024,1.1374,0.36234,0.45038
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,0.60451,0.68707,1.1884,-0.47529,0.37186,0.2866,1.9043,1.6143,0.59983
+Statistics,Median,stat_median,Y12H,5.8644,5.839,-0.15626,1.5176,2.0415,7.8669e-06,0.23919,-0.042023,0.13667
+Statistics,Minimum,stat_min,1GSF,0.75263,0.88119,-3.3536,0.71447,0.019198,-0.039882,-0.031442,-2.9552,-3.143
+Statistics,10th percentile,stat_p10,QG58,3.4014,3.5712,-1.2619,1.121,0.98802,-0.013281,0.089007,-0.68981,-1.429
+Statistics,90th percentile,stat_p90,8DWT,10.196,9.5831,0.55398,1.952,3.8986,0.013234,0.49647,0.72711,1.7634
+Statistics,Maximum,stat_max,84IY,15.992,14.713,1.4176,2.3465,5.9865,0.043296,1.2228,3.0582,5.3778
+Statistics,Interquartile range,stat_iqr,SALO,3.21,3.009,0.89043,0.43994,1.3414,0.013546,0.21105,0.70494,1.6533
+Statistics,Range,stat_range,2OJQ,15.239,13.832,4.7713,1.6321,5.9673,0.083179,1.2542,6.0134,8.5208
+Statistics,Mean absolute deviation,stat_mad,4FUA,2.1316,1.9485,0.57329,0.25348,0.87401,0.0081892,0.12877,0.45007,1.014
+Statistics,Robust mean absolute deviation,stat_rmad,1128,1.377,1.2606,0.37546,0.18202,0.57886,0.0056117,0.087888,0.29554,0.68697
+Statistics,Median absolute deviation,stat_medad,N72L,2.0957,1.9206,0.56656,0.25343,0.85889,0.0081892,0.12619,0.44897,1.0136
+Statistics,Coefficient of variation,stat_cov,7TET,0.43502,0.40439,-2.8654,0.20427,0.50245,-388.04,0.61166,-140.36,7.5618
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.26086,0.24671,-2.4253,0.14574,0.3143,-90.626,0.41412,-16.079,7.112
+Statistics,Energy,stat_energy,N8CA,368310.0,350180.0,4859.1,18583.0,47969.0,0.83773,776.43,2720.9,13250.0
+Statistics,Root mean square,stat_rms,5ZWQ,6.9219,6.7494,0.79506,1.5548,2.4981,0.010439,0.31781,0.59494,1.3129

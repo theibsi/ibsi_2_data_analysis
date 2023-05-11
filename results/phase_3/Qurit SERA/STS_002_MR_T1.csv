@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,382.75,386.01,5.5808,50.123,73.757,0.0023545,2.7714,-0.4187,-6.1267
+Statistics,Variance,stat_var,ECT3,8985.8,8576.6,25.478,1126.7,9148.3,1.1615,6.2703,395.96,1777.1
+Statistics,Skewness,stat_skew,KE2A,2.1269,1.9824,0.052789,1.1485,3.7622,-0.078079,2.2318,-0.1449,-0.96752
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,4.9467,4.1543,0.25457,1.5595,19.281,5.7908,8.3541,7.1344,2.7681
+Statistics,Median,stat_median,Y12H,349.26,351.9,4.9723,42.904,42.567,0.0037115,2.0323,-0.14523,-1.0062
+Statistics,Minimum,stat_min,1GSF,244.56,283.66,-18.659,10.578,0.057854,-9.8295,-0.84652,-162.7,-249.68
+Statistics,10th percentile,stat_p10,QG58,309.65,312.32,0.31218,13.645,13.432,-1.0999,0.58509,-19.227,-58.514
+Statistics,90th percentile,stat_p90,8DWT,514.39,518.74,12.319,95.904,161.37,1.1183,5.937,17.945,37.69
+Statistics,Maximum,stat_max,84IY,940.46,917.8,20.661,215.43,1041.6,8.0459,30.597,176.01,199.39
+Statistics,Interquartile range,stat_iqr,SALO,75.098,81.078,7.8124,48.122,59.922,0.9242,2.6279,13.181,42.459
+Statistics,Range,stat_range,2OJQ,695.9,634.14,39.32,204.86,1041.5,17.875,31.443,338.71,449.07
+Statistics,Mean absolute deviation,stat_mad,4FUA,66.965,67.105,4.1728,26.765,57.89,0.72062,1.8058,12.269,30.31
+Statistics,Robust mean absolute deviation,stat_rmad,1128,36.499,38.493,3.1349,19.361,27.75,0.40451,1.1348,6.0724,18.312
+Statistics,Median absolute deviation,stat_medad,N72L,59.202,59.62,4.1525,26.165,50.178,0.72062,1.7021,12.266,29.956
+Statistics,Coefficient of variation,stat_cov,7TET,0.24766,0.23992,0.90446,0.66969,1.2968,457.73,0.90353,-47.525,-6.8807
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.10366,0.11034,0.71333,0.51886,0.56038,-625.36,0.55634,-62.183,-9.0273
+Statistics,Energy,stat_energy,N8CA,8276000000.0,8387600000.0,3013900.0,193690000.0,776500000.0,61825.0,742570.0,21085000.0,96589000.0
+Statistics,Root mean square,stat_rms,5ZWQ,394.32,396.97,7.5249,60.324,120.78,1.0777,3.7351,19.903,42.599

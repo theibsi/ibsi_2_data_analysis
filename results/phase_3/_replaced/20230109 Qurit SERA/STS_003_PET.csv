@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,5.7953,5.6064,-0.48001,2.5377,35.208,1.7358e-05,0.24912,0.062667,0.43997
+Statistics,Variance,stat_var,ECT3,4.8746,3.9576,0.51107,0.13998,163.41,0.00021951,0.026989,0.34528,1.7766
+Statistics,Skewness,stat_skew,KE2A,-0.70347,-0.73847,-0.06397,-0.38808,-0.70841,-0.035852,1.1367,0.19485,-0.67795
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,-0.1737,-0.16099,-0.49813,-0.37464,-0.1317,0.78377,1.4367,0.055687,0.80654
+Statistics,Median,stat_median,Y12H,6.2508,6.0824,-0.49083,2.5605,37.947,5.2582e-05,0.21334,0.021983,0.62023
+Statistics,Minimum,stat_min,1GSF,0.37179,0.55148,-2.4782,1.3201,2.7494,-0.065475,-0.036979,-1.7329,-4.5628
+Statistics,10th percentile,stat_p10,QG58,2.128,2.3856,-1.4218,2.034,14.884,-0.017995,0.07403,-0.628,-1.1837
+Statistics,90th percentile,stat_p90,8DWT,8.2459,7.8046,0.50786,3.0227,49.624,0.018247,0.4794,0.85171,2.0099
+Statistics,Maximum,stat_max,84IY,10.547,9.7206,1.4292,3.2352,61.937,0.058529,1.0442,1.9983,3.6828
+Statistics,Interquartile range,stat_iqr,SALO,2.8077,2.5943,1.0515,0.56132,16.405,0.018552,0.20711,0.77905,1.6697
+Statistics,Range,stat_range,2OJQ,10.176,9.1691,3.9073,1.9151,59.187,0.124,1.0812,3.7311,8.2455
+Statistics,Mean absolute deviation,stat_mad,4FUA,1.7582,1.6044,0.58329,0.30873,10.217,0.011406,0.12881,0.46754,1.0318
+Statistics,Robust mean absolute deviation,stat_rmad,1128,1.2058,1.1128,0.4254,0.2288,7.0113,0.0076125,0.088978,0.3262,0.68877
+Statistics,Median absolute deviation,stat_medad,N72L,1.7148,1.5544,0.58325,0.30825,9.9518,0.011406,0.12559,0.4666,1.0204
+Statistics,Coefficient of variation,stat_cov,7TET,0.38097,0.35484,-1.4893,0.14743,0.36307,853.56,0.65945,9.3766,3.0294
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.23564,0.22648,-1.1391,0.10974,0.22856,-459.51,0.44896,8.1498,1.7079
+Statistics,Energy,stat_energy,N8CA,114190.0,105070.0,2201.4,19535.0,4165500.0,0.65173,264.39,1036.8,5849.3
+Statistics,Root mean square,stat_rms,5ZWQ,6.2016,5.9489,0.86109,2.5651,37.457,0.014816,0.29841,0.59093,1.4036

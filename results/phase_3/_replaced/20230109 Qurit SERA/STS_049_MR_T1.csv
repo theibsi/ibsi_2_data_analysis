@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,385.54,385.55,0.048299,44.416,60.953,0.00063392,3.4503,-0.004072,0.9168
+Statistics,Variance,stat_var,ECT3,2509.7,2148.5,15.386,1934.9,7135.5,2.434,23.162,226.24,899.87
+Statistics,Skewness,stat_skew,KE2A,0.51508,0.64264,0.61962,2.364,6.149,-0.14055,5.4546,-0.0023202,-0.048658
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,9.8682,8.364,7.4819,6.8982,61.0,17.125,48.572,18.027,8.4161
+Statistics,Median,stat_median,Y12H,377.45,377.64,0.093931,26.178,38.346,0.00077433,1.9734,-0.032169,0.012006
+Statistics,Minimum,stat_min,1GSF,0.72753,36.201,-32.331,6.8575,0.069333,-25.066,-4.7184,-199.93,-286.86
+Statistics,10th percentile,stat_p10,QG58,345.16,347.38,-3.3674,13.08,13.504,-1.3537,0.75126,-11.48,-25.84
+Statistics,90th percentile,stat_p90,8DWT,440.55,438.69,2.5877,103.22,121.91,1.3632,7.3348,11.423,28.031
+Statistics,Maximum,stat_max,84IY,950.77,850.32,28.011,421.54,1728.0,24.815,127.71,293.56,279.12
+Statistics,Interquartile range,stat_iqr,SALO,40.127,37.912,1.9032,37.302,42.081,1.2005,2.5689,9.3117,20.272
+Statistics,Range,stat_range,2OJQ,950.04,814.12,60.342,414.69,1727.9,49.881,132.42,493.49,565.98
+Statistics,Mean absolute deviation,stat_mad,4FUA,32.318,30.504,2.1869,31.079,44.263,0.95888,2.666,8.4872,18.362
+Statistics,Robust mean absolute deviation,stat_rmad,1128,17.71,16.817,0.89789,17.714,19.387,0.51684,1.2128,4.0889,9.0883
+Statistics,Median absolute deviation,stat_medad,N72L,31.424,29.56,2.1862,27.195,38.467,0.95888,2.2832,8.4872,18.338
+Statistics,Coefficient of variation,stat_cov,7TET,0.12994,0.12022,81.213,0.99035,1.3858,2461.1,1.3949,-3693.9,32.72
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.052699,0.049771,1732.0,0.52486,0.47855,296.38,0.51971,-111.05,-77.458
+Statistics,Energy,stat_energy,N8CA,160840000000.0,160470000000.0,16375000.0,4158200000.0,11547000000.0,2590100.0,37315000.0,240750000.0,958470000.0
+Statistics,Root mean square,stat_rms,5ZWQ,388.78,388.33,3.9228,62.511,104.17,1.5601,5.9217,15.041,30.012

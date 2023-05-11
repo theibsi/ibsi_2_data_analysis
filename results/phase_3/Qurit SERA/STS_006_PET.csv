@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,7.8613,7.7188,-0.39055,3.1608,3.0771,-6.2389e-05,0.81692,0.035991,0.45532
+Statistics,Variance,stat_var,ECT3,25.882,21.124,2.3825,1.0131,5.5148,0.0027102,0.32578,1.5642,7.33
+Statistics,Skewness,stat_skew,KE2A,0.68073,0.60625,-0.6237,0.32775,1.1754,0.15501,1.388,0.32796,-0.14515
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,-0.078987,-0.19379,0.49465,-0.38465,1.4791,0.82704,2.7633,1.7149,0.29892
+Statistics,Median,stat_median,Y12H,7.3279,7.3485,-0.13184,3.0838,2.6032,-0.00048927,0.69148,-0.0025197,0.39156
+Statistics,Minimum,stat_min,1GSF,0.60882,0.88811,-7.8724,0.87798,0.028873,-0.23438,-0.20953,-5.6037,-10.367
+Statistics,10th percentile,stat_p10,QG58,1.7663,2.0179,-2.4733,1.915,0.5543,-0.064745,0.22266,-1.4439,-2.9383
+Statistics,90th percentile,stat_p90,8DWT,14.799,14.052,1.3328,4.5922,6.3127,0.063146,1.5685,1.5373,3.9112
+Statistics,Maximum,stat_max,84IY,26.487,22.582,4.4078,5.8384,14.232,0.21201,4.1156,6.857,8.652
+Statistics,Interquartile range,stat_iqr,SALO,7.6854,6.7197,2.0369,1.4163,3.0733,0.061509,0.68323,1.4083,3.4208
+Statistics,Range,stat_range,2OJQ,25.879,21.694,12.28,4.9604,14.203,0.44638,4.3251,12.461,19.019
+Statistics,Mean absolute deviation,stat_mad,4FUA,4.1649,3.7355,1.2319,0.81597,1.8404,0.039677,0.43414,0.93369,2.1322
+Statistics,Robust mean absolute deviation,stat_rmad,1128,3.0833,2.7298,0.86013,0.58111,1.2835,0.026017,0.28864,0.59927,1.4655
+Statistics,Median absolute deviation,stat_medad,N72L,4.1434,3.723,1.2152,0.8138,1.8037,0.039675,0.42282,0.93321,2.1316
+Statistics,Coefficient of variation,stat_cov,7TET,0.64715,0.59544,-3.9523,0.31844,0.76318,-834.44,0.69869,34.749,5.9462
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.5308,0.46756,-3.1657,0.22724,0.55945,-31.148,0.45717,139.35,3.0469
+Statistics,Energy,stat_energy,N8CA,852190.0,784360.0,24638.0,106950.0,145620.0,26.34,9652.3,15215.0,73256.0
+Statistics,Root mean square,stat_rms,5ZWQ,9.3639,8.9835,1.5922,3.3172,3.8708,0.052059,0.99656,1.2512,2.7454

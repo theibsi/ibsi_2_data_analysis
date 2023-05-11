@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,7.7356,7.5109,-0.55602,2.6167,3.0168,-3.677e-05,0.77661,0.099855,0.53409
+Statistics,Variance,stat_var,ECT3,6.4548,4.8497,0.96646,0.21683,2.3723,0.0032365,0.27665,1.0749,2.3977
+Statistics,Skewness,stat_skew,KE2A,0.10158,-0.0039266,-0.44589,-0.029813,0.60116,0.0071093,1.1461,0.3627,-0.33607
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,-0.56392,-0.67755,0.1318,-0.87791,-0.01154,0.2625,1.6733,0.42497,0.0092587
+Statistics,Median,stat_median,Y12H,7.6895,7.536,-0.46068,2.6196,2.8261,-0.00018267,0.66886,0.018725,0.60495
+Statistics,Minimum,stat_min,1GSF,1.4542,1.8231,-4.5797,1.5032,0.066666,-0.2131,-0.18584,-3.7948,-4.7906
+Statistics,10th percentile,stat_p10,QG58,4.4377,4.5873,-1.876,1.983,1.1789,-0.070933,0.20594,-1.1209,-1.4633
+Statistics,90th percentile,stat_p90,8DWT,11.222,10.545,0.62616,3.2455,5.1817,0.071696,1.5068,1.4607,2.4875
+Statistics,Maximum,stat_max,84IY,15.458,12.898,2.4108,3.6242,9.4579,0.21785,3.5654,4.287,4.7326
+Statistics,Interquartile range,stat_iqr,SALO,3.7219,3.3051,1.3315,0.73297,2.1854,0.074667,0.67511,1.3456,2.0994
+Statistics,Range,stat_range,2OJQ,14.004,11.075,6.9905,2.121,9.3912,0.43095,3.7513,8.0819,9.5233
+Statistics,Mean absolute deviation,stat_mad,4FUA,2.0846,1.82,0.78478,0.39138,1.2477,0.04494,0.41183,0.81481,1.2342
+Statistics,Robust mean absolute deviation,stat_rmad,1128,1.5226,1.3425,0.55027,0.29691,0.89615,0.031035,0.28531,0.5594,0.86305
+Statistics,Median absolute deviation,stat_medad,N72L,2.0842,1.8199,0.78093,0.39137,1.2389,0.04494,0.40325,0.81203,1.2325
+Statistics,Coefficient of variation,stat_cov,7TET,0.32844,0.2932,-1.7681,0.17795,0.51055,-1547.2,0.67727,10.383,2.8992
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.24119,0.22067,-1.2897,0.14,0.37264,-174.57,0.47034,11.441,1.7923
+Statistics,Energy,stat_energy,N8CA,267960.0,247620.0,5156.0,28553.0,46377.0,13.082,3556.1,4385.0,10845.0
+Statistics,Root mean square,stat_rms,5ZWQ,8.1421,7.827,1.1294,2.6578,3.3873,0.05689,0.93796,1.0416,1.638

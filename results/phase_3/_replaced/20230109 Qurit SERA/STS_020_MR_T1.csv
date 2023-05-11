@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,387.73,387.59,0.19642,25.857,11.089,-5.3041e-05,2.3032,0.15043,0.62773
+Statistics,Variance,stat_var,ECT3,1461.1,1365.1,5.2971,739.49,223.53,0.0055959,8.7032,74.447,305.61
+Statistics,Skewness,stat_skew,KE2A,0.97401,0.79409,1.1473,3.6582,5.4323,-0.0033789,5.0784,1.5865,0.23878
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,13.961,11.46,11.137,23.186,47.659,16.019,41.95,38.873,19.764
+Statistics,Median,stat_median,Y12H,387.79,387.6,-0.082952,16.367,6.8553,-8.0252e-05,1.4097,0.0066972,0.11006
+Statistics,Minimum,stat_min,1GSF,68.484,138.77,-29.892,3.6232,0.0064477,-2.3487,-1.1659,-167.12,-279.3
+Statistics,10th percentile,stat_p10,QG58,346.72,347.54,-1.5145,6.3961,2.2881,-0.081485,0.52798,-5.8414,-13.308
+Statistics,90th percentile,stat_p90,8DWT,428.64,427.75,2.4494,54.524,22.564,0.081301,4.7808,5.9853,15.838
+Statistics,Maximum,stat_max,84IY,1003.5,961.07,20.118,438.17,324.02,1.7954,65.756,218.29,329.6
+Statistics,Interquartile range,stat_iqr,SALO,38.466,37.853,0.94617,25.989,8.342,0.081924,1.7982,4.3157,10.057
+Statistics,Range,stat_range,2OJQ,935.03,822.31,50.011,434.55,324.01,4.1441,66.922,385.41,608.89
+Statistics,Mean absolute deviation,stat_mad,4FUA,26.323,25.748,1.3099,18.098,8.1996,0.053245,1.6823,4.3807,9.8893
+Statistics,Robust mean absolute deviation,stat_rmad,1128,16.254,16.019,0.51705,11.231,3.8002,0.034245,0.82033,1.9569,4.6686
+Statistics,Median absolute deviation,stat_medad,N72L,26.323,25.748,1.2514,16.628,7.1814,0.053245,1.4756,4.3778,9.8726
+Statistics,Coefficient of variation,stat_cov,7TET,0.098585,0.095324,11.718,1.0517,1.3483,-1410.3,1.2809,57.358,27.849
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.049614,0.048848,-6.5965,0.5973,0.5138,-919.63,0.52056,403.28,26.91
+Statistics,Energy,stat_energy,N8CA,353400000000.0,352920000000.0,12422000.0,3278100000.0,806650000.0,13028.0,32612000.0,173370000.0,712400000.0
+Statistics,Root mean square,stat_rms,5ZWQ,389.61,389.35,2.3099,37.524,18.614,0.074806,3.7427,8.6296,17.493

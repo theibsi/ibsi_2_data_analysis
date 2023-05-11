@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,4.0037,3.9776,-0.076588,2.5219,24.962,-2.3318e-05,0.43154,-0.0025288,0.051136
+Statistics,Variance,stat_var,ECT3,6.1087,5.0512,0.45601,0.45749,202.47,0.00025479,0.058425,0.32011,1.2066
+Statistics,Skewness,stat_skew,KE2A,0.8477,0.75591,-1.1626,0.29054,0.74626,0.053324,1.0823,0.51955,0.60014
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,0.086516,-0.08778,2.2809,-0.39174,-0.11749,1.1884,1.953,1.9433,1.4405
+Statistics,Median,stat_median,Y12H,3.4333,3.5072,0.063426,2.4684,22.093,-0.0001166,0.39247,-0.02938,-0.039012
+Statistics,Minimum,stat_min,1GSF,0.25679,0.31954,-5.163,0.99183,1.9812,-0.085776,-0.19566,-2.5564,-3.6671
+Statistics,10th percentile,stat_p10,QG58,1.258,1.4182,-0.97952,1.6779,8.7144,-0.019104,0.16398,-0.67165,-1.214
+Statistics,90th percentile,stat_p90,8DWT,7.7977,7.4529,0.62481,3.4269,46.884,0.019305,0.74707,0.67899,1.417
+Statistics,Maximum,stat_max,84IY,14.928,11.854,2.0274,5.0287,75.633,0.091558,1.7882,4.2494,6.1811
+Statistics,Interquartile range,stat_iqr,SALO,3.3263,3.0254,0.76709,1.0144,19.375,0.019279,0.30484,0.64036,1.2576
+Statistics,Range,stat_range,2OJQ,14.671,11.534,7.1904,4.0369,73.652,0.17733,1.9839,6.8059,9.8482
+Statistics,Mean absolute deviation,stat_mad,4FUA,1.9969,1.8172,0.51041,0.56031,11.532,0.012191,0.18704,0.42165,0.82647
+Statistics,Robust mean absolute deviation,stat_rmad,1128,1.4171,1.2885,0.32851,0.41384,8.2201,0.0080792,0.1273,0.27089,0.53226
+Statistics,Median absolute deviation,stat_medad,N72L,1.9466,1.7788,0.49647,0.55902,11.301,0.012191,0.18447,0.42101,0.82286
+Statistics,Coefficient of variation,stat_cov,7TET,0.61732,0.56504,-8.8171,0.2682,0.57003,-684.55,0.56012,-223.74,21.481
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.44178,0.40112,-21.778,0.20189,0.4092,-112.93,0.37222,-15.426,-364.09
+Statistics,Energy,stat_energy,N8CA,727120.0,685530.0,15170.0,223910.0,27115000.0,8.3685,8035.3,10514.0,39717.0
+Statistics,Root mean square,stat_rms,5ZWQ,4.7052,4.5686,0.67961,2.611,28.733,0.015962,0.49462,0.56579,1.0997

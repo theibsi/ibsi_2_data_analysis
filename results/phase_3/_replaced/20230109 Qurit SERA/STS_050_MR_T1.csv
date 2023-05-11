@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,306.52,306.49,-0.0081075,35.057,63.704,0.003004,4.9301,-0.19068,0.80104
+Statistics,Variance,stat_var,ECT3,398.26,252.15,2.1567,479.21,5940.8,4.0932,37.991,108.71,319.22
+Statistics,Skewness,stat_skew,KE2A,1.2044,0.84667,1.7521,3.1407,7.2769,-0.038183,4.5199,-0.066554,1.471
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,9.5511,4.8922,8.0215,13.736,76.661,10.751,32.83,12.596,5.5752
+Statistics,Median,stat_median,Y12H,305.52,305.66,-0.11705,27.191,48.877,-0.0010259,2.9821,-0.044184,-0.44045
+Statistics,Minimum,stat_min,1GSF,171.96,215.0,-7.1059,14.58,0.11314,-26.038,-1.3545,-130.63,-114.85
+Statistics,10th percentile,stat_p10,QG58,283.44,287.46,-1.5027,20.488,18.708,-1.9495,1.1904,-11.076,-18.299
+Statistics,90th percentile,stat_p90,8DWT,329.91,326.08,1.3624,60.818,105.07,1.9559,10.652,10.659,18.514
+Statistics,Maximum,stat_max,84IY,618.63,493.93,12.501,259.85,1540.3,22.99,107.13,141.34,145.57
+Statistics,Interquartile range,stat_iqr,SALO,23.881,20.423,1.384,13.983,42.038,1.9248,3.5104,10.931,18.08
+Statistics,Range,stat_range,2OJQ,446.67,278.92,19.607,245.27,1540.2,49.028,108.48,271.97,260.42
+Statistics,Mean absolute deviation,stat_mad,4FUA,14.868,12.214,0.98808,14.26,36.409,1.3488,3.6191,7.2369,12.441
+Statistics,Robust mean absolute deviation,stat_rmad,1128,9.9669,8.4212,0.58361,7.0273,17.858,0.80861,1.684,4.5655,7.5958
+Statistics,Median absolute deviation,stat_medad,N72L,14.846,12.195,0.9832,12.11,33.755,1.3488,3.1144,7.2358,12.394
+Statistics,Coefficient of variation,stat_cov,7TET,0.065107,0.051811,-181.14,0.62444,1.2099,673.49,1.2502,-54.681,22.304
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.039027,0.033361,-5.4018,0.23127,0.40446,514.83,0.48675,-57.851,-12.736
+Statistics,Energy,stat_energy,N8CA,15911000000.0,15883000000.0,363710.0,288070000.0,1686200000.0,690260.0,10506000.0,18339000.0,53940000.0
+Statistics,Root mean square,stat_rms,5ZWQ,307.17,306.9,1.4686,41.33,99.995,2.0232,7.8929,10.428,17.885

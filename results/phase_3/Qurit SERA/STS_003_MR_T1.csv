@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,363.67,366.67,5.2132,44.935,14.234,-0.0010624,1.6762,-0.32987,-5.317
+Statistics,Variance,stat_var,ECT3,27402.0,26831.0,38.19,788.47,163.48,0.026599,2.1593,352.04,1495.3
+Statistics,Skewness,stat_skew,KE2A,1.7919,1.7338,-0.49878,0.78803,2.4833,-0.081576,2.8397,0.0052252,-0.7563
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,2.6152,2.3922,1.4522,0.075871,9.4653,2.1939,16.75,4.9682,2.4129
+Statistics,Median,stat_median,Y12H,309.56,312.23,4.9784,39.585,10.526,-7.3508e-05,1.2747,-0.11116,-1.429
+Statistics,Minimum,stat_min,1GSF,167.76,185.7,-28.705,8.7042,0.031782,-0.98467,-0.8002,-136.8,-247.4
+Statistics,10th percentile,stat_p10,QG58,226.91,229.42,-0.89742,13.522,3.4733,-0.18888,0.40972,-19.618,-53.869
+Statistics,90th percentile,stat_p90,8DWT,624.1,624.27,13.138,83.51,29.37,0.18527,3.3949,18.479,37.339
+Statistics,Maximum,stat_max,84IY,1059.3,1014.4,23.017,168.0,139.84,1.0916,25.806,163.46,252.35
+Statistics,Interquartile range,stat_iqr,SALO,121.75,130.78,8.7575,44.254,12.086,0.18016,1.4961,13.947,42.246
+Statistics,Range,stat_range,2OJQ,891.57,828.7,51.722,159.3,139.81,2.0763,26.606,300.26,499.76
+Statistics,Mean absolute deviation,stat_mad,4FUA,119.48,119.65,4.876,23.5,8.8771,0.12018,1.0257,12.155,28.534
+Statistics,Robust mean absolute deviation,stat_rmad,1128,63.943,65.775,3.4878,17.971,5.2789,0.076133,0.63984,6.3591,18.061
+Statistics,Median absolute deviation,stat_medad,N72L,105.53,106.0,4.8729,23.213,8.294,0.12018,0.97259,12.153,28.338
+Statistics,Coefficient of variation,stat_cov,7TET,0.45517,0.44672,1.1854,0.6249,0.89827,-153.51,0.87668,-56.879,-7.2729
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.18931,0.19913,0.82036,0.52159,0.50274,344.83,0.51598,-46.535,-8.0527
+Statistics,Energy,stat_energy,N8CA,12785000000.0,12914000000.0,5234100.0,224820000.0,29313000.0,2130.0,397870.0,28198000.0,122000000.0
+Statistics,Root mean square,stat_rms,5ZWQ,399.58,401.6,8.085,52.987,19.133,0.1631,2.2291,18.766,39.033

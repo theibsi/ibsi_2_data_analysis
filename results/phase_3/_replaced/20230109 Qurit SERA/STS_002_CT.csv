@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,58.946,58.296,-1.3981,86.694,112.32,0.0016197,21.98,0.24929,1.6484
+Statistics,Variance,stat_var,ECT3,1642.2,464.16,2.0702,77.641,2362.7,7.4974,104.09,794.88,438.85
+Statistics,Skewness,stat_skew,KE2A,-0.07391,-0.43595,-0.45276,0.96446,-0.099358,-0.036197,0.71592,-0.023299,0.0087059
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,0.10279,0.89113,0.12501,2.2784,-0.94924,0.087436,0.65642,0.052187,0.29256
+Statistics,Median,stat_median,Y12H,60.0,59.444,-1.2272,85.673,113.51,0.011368,20.601,0.35134,1.176
+Statistics,Minimum,stat_min,1GSF,-163.0,-103.44,-9.6399,66.489,0.055522,-12.322,-6.8649,-117.22,-92.671
+Statistics,10th percentile,stat_p10,QG58,7.0,31.0,-3.317,76.491,45.035,-3.5011,10.136,-35.882,-24.259
+Statistics,90th percentile,stat_p90,8DWT,110.0,84.407,0.33605,97.833,178.7,3.4821,35.705,35.989,28.649
+Statistics,Maximum,stat_max,84IY,200.0,136.22,3.8149,153.2,200.0,11.723,90.674,115.09,94.934
+Statistics,Interquartile range,stat_iqr,SALO,54.0,27.111,2.1314,11.702,77.51,3.6739,13.371,38.04,27.841
+Statistics,Range,stat_range,2OJQ,363.0,239.67,13.455,86.711,199.94,24.045,97.539,232.31,187.61
+Statistics,Mean absolute deviation,stat_mad,4FUA,32.266,16.752,1.1785,6.9009,41.086,2.1783,8.0658,22.448,16.579
+Statistics,Robust mean absolute deviation,stat_rmad,1128,22.691,11.36,0.86235,4.8219,31.456,1.519,5.5802,15.693,11.51
+Statistics,Median absolute deviation,stat_medad,N72L,32.264,16.726,1.1715,6.858,41.077,2.1782,7.9905,22.448,16.575
+Statistics,Coefficient of variation,stat_cov,7TET,0.68748,0.36957,-1.0291,0.10164,0.43277,1690.6,0.46418,113.1,12.709
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.45763,0.22961,-0.77378,0.067963,0.34278,134.37,0.31377,51.968,8.7579
+Statistics,Energy,stat_energy,N8CA,271000000.0,204570000.0,213160.0,402160000.0,614600000.0,397080.0,31100000.0,42102000.0,23386000.0
+Statistics,Root mean square,stat_rms,5ZWQ,71.532,62.149,2.0062,87.14,122.38,2.7381,24.233,28.195,21.013

@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,37.711,37.728,-0.032769,61.029,126.9,-0.0016692,13.109,-0.029176,-0.37868
+Statistics,Variance,stat_var,ECT3,755.09,301.05,0.82295,49.533,2317.2,1.4302,38.178,327.12,149.26
+Statistics,Skewness,stat_skew,KE2A,0.35363,1.1523,-1.3566,0.32509,-0.40675,0.012116,0.82665,0.00031779,-0.09851
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,1.3576,6.3906,7.3114,0.95608,-0.78079,0.11507,1.0346,0.10245,1.0595
+Statistics,Median,stat_median,Y12H,37.0,37.0,0.0,61.0,133.0,-0.0,12.0,-0.0,-0.0
+Statistics,Minimum,stat_min,1GSF,-88.0,-52.0,-10.0,38.0,0.0,-5.0,-8.0,-103.0,-81.0
+Statistics,10th percentile,stat_p10,QG58,4.0,18.0,-1.0,52.0,57.0,-1.0,6.0,-23.0,-15.0
+Statistics,90th percentile,stat_p90,8DWT,71.0,56.0,1.0,70.0,187.0,1.0,21.0,23.0,14.0
+Statistics,Maximum,stat_max,84IY,200.0,198.0,4.0,103.0,200.0,6.0,52.0,87.0,81.0
+Statistics,Interquartile range,stat_iqr,SALO,35.0,20.0,0.0,9.0,77.0,2.0,8.0,24.0,15.0
+Statistics,Range,stat_range,2OJQ,288.0,250.0,14.0,65.0,200.0,11.0,60.0,190.0,162.0
+Statistics,Mean absolute deviation,stat_mad,4FUA,21.259,12.631,0.5309,5.482,40.577,0.89137,4.8268,14.369,9.4562
+Statistics,Robust mean absolute deviation,stat_rmad,1128,14.582,8.4064,0.39398,4.0173,31.057,0.58346,3.4085,10.152,6.4091
+Statistics,Median absolute deviation,stat_medad,N72L,21.252,12.62,0.51088,5.4799,40.354,0.89081,4.7715,14.369,9.4473
+Statistics,Coefficient of variation,stat_cov,7TET,0.72867,0.45989,-27.684,0.11532,0.37932,-716.47,0.47134,-619.92,-32.262
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.46667,0.27027,,0.07438,0.2973,inf,0.30769,inf,-15.0
+Statistics,Energy,stat_energy,N8CA,563490000.0,446300000.0,213270.0,976770000.0,1709100000.0,370150.0,54358000.0,84664000.0,38667000.0
+Statistics,Root mean square,stat_rms,5ZWQ,46.661,41.526,0.90776,61.433,135.73,1.1959,14.492,18.087,12.223

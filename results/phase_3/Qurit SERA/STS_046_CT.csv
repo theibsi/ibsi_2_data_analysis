@@ -1,0 +1,19 @@
+family,feature_name,feature_tag,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+Statistics,Mean,stat_mean,Q4LE,35.964,36.002,0.30134,48.988,53.24,0.0013086,8.6497,-0.077217,1.2599
+Statistics,Variance,stat_var,ECT3,540.86,219.78,4.236,149.16,1541.2,0.78736,18.678,249.94,330.89
+Statistics,Skewness,stat_skew,KE2A,-0.31554,-0.76587,6.3017,4.4523,1.3527,0.017928,1.0473,0.069896,1.6505
+Statistics,(Excess) kurtosis,stat_kurt,IPH6,1.1439,3.5412,49.593,36.922,1.5713,0.56917,2.655,1.7614,11.139
+Statistics,Median,stat_median,Y12H,37.0,37.0,-0.0,48.0,42.0,0.0,8.0,0.0,-0.0
+Statistics,Minimum,stat_min,1GSF,-174.0,-98.0,-6.0,22.0,0.0,-6.0,-5.0,-199.0,-200.0
+Statistics,10th percentile,stat_p10,QG58,7.0,19.0,-1.0,38.0,15.0,-1.0,4.0,-20.0,-16.0
+Statistics,90th percentile,stat_p90,8DWT,64.0,53.0,1.0,57.0,110.0,1.0,14.0,19.0,16.0
+Statistics,Maximum,stat_max,84IY,154.0,175.0,26.0,200.0,200.0,6.0,79.0,136.0,145.0
+Statistics,Interquartile range,stat_iqr,SALO,29.0,18.0,0.0,9.0,45.0,2.0,5.0,20.0,16.0
+Statistics,Range,stat_range,2OJQ,328.0,273.0,32.0,178.0,200.0,12.0,84.0,335.0,345.0
+Statistics,Mean absolute deviation,stat_mad,4FUA,18.025,11.17,0.83803,6.7826,30.093,0.61307,3.3555,12.231,11.46
+Statistics,Robust mean absolute deviation,stat_rmad,1128,12.351,7.6039,0.2691,3.8252,19.58,0.49589,2.3499,8.4648,6.5284
+Statistics,Median absolute deviation,stat_medad,N72L,18.016,11.156,0.64263,6.7714,28.595,0.61245,3.289,12.23,11.406
+Statistics,Coefficient of variation,stat_cov,7TET,0.64666,0.41178,6.83,0.24931,0.73738,678.09,0.49964,-204.74,14.438
+Statistics,Quartile coefficient of dispersion,stat_qcod,9S40,0.39726,0.25,,0.092784,0.47368,inf,0.29412,inf,inf
+Statistics,Energy,stat_energy,N8CA,1380700000.0,1141100000.0,3256900.0,1916400000.0,3197300000.0,592670.0,70377000.0,188140000.0,250140000.0
+Statistics,Root mean square,stat_rms,5ZWQ,42.828,38.935,2.0801,50.487,66.149,0.88733,9.6693,15.81,18.234

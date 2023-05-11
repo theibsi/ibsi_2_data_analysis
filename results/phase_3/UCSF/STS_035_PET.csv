@@ -1,0 +1,19 @@
+feature_tag,family,feature_name,ibsi_identifier,ID_1,ID_2,ID_3,ID_4,ID_5,ID_6,ID_7,ID_8,ID_9
+stat_mean,Statistics,Mean,Q4LE,4.751282215118408,4.518341836954083,0,0,0,0,0,0,0
+stat_var,Statistics,Variance,ECT3,9.71016788482666,7.731170568208758,0,0,0,0,0,0,0
+stat_skew,Statistics,Skewness,KE2A,1.5039466074118937,1.508578003525161,0,0,0,0,0,0,0
+stat_kurt,Statistics,(Excess) kurtosis,IPH6,1.314812763783653,1.3372467321984516,0,0,0,0,0,0,0
+stat_median,Statistics,Median,Y12H,3.652034997940064,3.506079223420884,0,0,0,0,0,0,0
+stat_min,Statistics,Minimum,1GSF,0.7999919056892395,1.0763473014036817,0,0,0,0,0,0,0
+stat_p10,Statistics,10th percentile,QG58,2.083229732513428,2.1700540114332134,0,0,0,0,0,0,0
+stat_p90,Statistics,90th percentile,8DWT,10.265157318115234,9.414807646362869,0,0,0,0,0,0,0
+stat_max,Statistics,Maximum,84IY,14.87738037109375,13.352217285721391,0,0,0,0,0,0,0
+stat_iqr,Statistics,Interquartile range,SALO,2.4878952503204346,2.357035661185228,0,0,0,0,0,0,0
+stat_range,Statistics,Range,2OJQ,14.077388763427734,12.275869984317708,0,0,0,0,0,0,0
+stat_mad,Statistics,Mean absolute deviation,4FUA,2.3362622261047363,2.096689892799733,0,0,0,0,0,0,0
+stat_rmad,Statistics,Robust mean absolute deviation,1128,1.359358549118042,1.2262495449109483,0,0,0,0,0,0,0
+stat_medad,Statistics,Median absolute deviation,N72L,2.0808942317962646,1.8572466048847662,0,0,0,0,0,0,0
+stat_cov,Statistics,Coefficient of variation,7TET,0.6558470129966736,0.6153802344573434,0,0,0,0,0,0,0
+stat_qcod,Statistics,Quartile coefficient of dispersion,9S40,0.3115429765107096,0.3012747397178794,0,0,0,0,0,0,0
+stat_energy,Statistics,Energy,N8CA,42712.8515625,37237.93000195877,0,0,0,0,0,0,0
+stat_rms,Statistics,Root mean square,5ZWQ,5.681975841522217,5.30533538278009,0,0,0,0,0,0,0
