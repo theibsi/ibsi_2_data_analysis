@@ -72,13 +72,14 @@ plot_theme$title <- ggplot2::element_text(
   
   if(nrow(data) == 0){
     return(data.table::data.table(
-      "filter_id"=filter_id,
-      "feature"=feature,
-      "modality"=modality,
-      "filter_descriptor"=filter_descriptor,
-      "n_raters"=0L,
-      "icc"=NA_real_,
-      "icc_low"=NA_real_))
+      "filter_id" = filter_id,
+      "feature" = feature,
+      "modality" = modality,
+      "filter_descriptor" = filter_descriptor,
+      "n_raters" = 0L,
+      "icc" = NA_real_,
+      "icc_low" = NA_real_,
+      "icc_up" = NA_real_))
   }
   
   # Calculate samples and raters.
@@ -87,24 +88,26 @@ plot_theme$title <- ggplot2::element_text(
   
   if(n_raters <= 2){
     return(data.table::data.table(
-      "filter_id"=filter_id,
-      "feature"=feature,
-      "modality"=modality,
-      "filter_descriptor"=filter_descriptor,
-      "n_raters"=n_raters,
-      "icc"=NA_real_,
-      "icc_low"=NA_real_))
+      "filter_id" = filter_id,
+      "feature" = feature,
+      "modality" = modality,
+      "filter_descriptor" = filter_descriptor,
+      "n_raters" = n_raters,
+      "icc" = NA_real_,
+      "icc_low" = NA_real_,
+      "icc_up" = NA_real_))
   }
   
   if(all(data$value == data$value[1])){
     return(data.table::data.table(
-      "filter_id"=filter_id,
-      "feature"=feature,
-      "modality"=modality,
-      "filter_descriptor"=filter_descriptor,
-      "n_raters"=n_raters,
-      "icc"=1.0,
-      "icc_low"=1.0))
+      "filter_id" = filter_id,
+      "feature" = feature,
+      "modality" = modality,
+      "filter_descriptor" = filter_descriptor,
+      "n_raters" = n_raters,
+      "icc" = 1.0,
+      "icc_low" = 1.0,
+      "icc_up" = 1.0))
   }
   
   # Transform using robust, shift-sensitive Yeo-Johnson transformation.
@@ -212,13 +215,14 @@ plot_theme$title <- ggplot2::element_text(
   }
    
   return(data.table::data.table(
-    "filter_id"=filter_id,
-    "feature"=feature,
-    "modality"=modality,
-    "filter_descriptor"=filter_descriptor,
-    "n_raters"=n_raters,
-    "icc"=icc,
-    "icc_low"=icc_ci_low))
+    "filter_id" = filter_id,
+    "feature" = feature,
+    "modality" = modality,
+    "filter_descriptor" = filter_descriptor,
+    "n_raters" = n_raters,
+    "icc" = icc,
+    "icc_low" = icc_ci_low,
+    "icc_up" = icc_ci_up))
 }
 
 
@@ -307,6 +311,26 @@ statistic_features <- data.table::data.table(
     "Quartile coefficient of dispersion",
     "Energy",
     "Root mean square"
+  ),
+  "abbr_name" = c(
+    "Mean",
+    "Variance",
+    "Skewness",
+    "Kurtosis",
+    "Median",
+    "Minimum",
+    "10th perc",
+    "90th perc",
+    "Maximum",
+    "IQR",
+    "Range",
+    "MAD",
+    "rMAD",
+    "MedAD",
+    "CoV",
+    "QCoD",
+    "energy",
+    "RMS"
   )
 )
 
@@ -1093,14 +1117,15 @@ if(!is.null(plot_type)){
 }
 
 
-# Supplementary Table: reproducibility -----------------------------------------
+# Supplementary Table: poor and moderate reproducibility -----------------------
 
 # Write table with poor and moderate reproducibility.
 poor_reproducibility_data <- data.table::copy(phase_3_icc_data[reproducibility %in% c("poor", "moderate")])
 
 # Format ICC and ICC-lower.
-poor_reproducibility_data$icc <- format(round(poor_reproducibility_data$icc, digits=2L))
-poor_reproducibility_data$icc_low <- format(round(poor_reproducibility_data$icc_low, digits=2L))
+poor_reproducibility_data$icc <- format(round(poor_reproducibility_data$icc, digits = 2L))
+poor_reproducibility_data$icc_low <- format(round(poor_reproducibility_data$icc_low, digits = 2L))
+poor_reproducibility_data$icc_up <- format(round(poor_reproducibility_data$icc_up, digits = 2L))
 
 poor_reproducibility_data[feature == "Coefficient of variation", "feature" := "CoV"]
 poor_reproducibility_data[feature == "Quartile coefficient of dispersion", "feature" := "QCoD"]
@@ -1115,6 +1140,47 @@ poor_reproducibility_data[, ":="(
 data.table::fwrite(
   poor_reproducibility_data,
   file = file.path(export_folder, paste0("suppl_table_reproducibility.csv")))
+
+# Supplementary Table: full reproducibility ------------------------------------
+
+icc_table <- data.table::copy(phase_3_icc_data)
+
+# Format ICC into a range.
+icc_table[, "icc_range" := paste0(
+  trimws(format(round(icc, digits = 2L))),
+  " (",
+  trimws(format(round(icc_low, digits = 2L))),
+  "-",
+  trimws(format(round(icc_up, digits = 2L))),
+  ")")
+]
+icc_table[is.na(icc), "icc_range" := "—"]
+
+# Merge in abbreviated feature names.
+icc_table <- merge(
+  x = icc_table,
+  y = statistic_features[, mget(c("name", "abbr_name"))],
+  by.x = "feature",
+  by.y = "name")
+icc_table$abbr_name <- factor(
+  x = icc_table$abbr_name,
+  levels = statistic_features$abbr_name
+)
+
+lapply(
+  split(icc_table, by = "filter_id"),
+  function(x) {
+    data.table::fwrite(
+      x = dcast(
+        data = x,
+        abbr_name ~ modality,
+        value.var = "icc_range"
+      ),
+      file = file.path(export_folder, paste0("suppl_table_full_reproducibility_", head(x$filter_id, n = 1L), ".csv"))
+    )
+  }
+)
+
 
 # IBSI website data ------------------------------------------------------------
 reference_data <- data.table::copy(consensus_data[submission_date == 20230111])
