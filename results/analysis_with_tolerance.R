@@ -4,7 +4,7 @@ phase_3_analysis_folder <- "./phase_3"
 tolerance_folder <- "./phase_2/20220922_perturbations"
 export_folder <- "./export"
 
-plot_type <- "png"
+fig_plot_type <- c("png", "svg")
 
 require(data.table)
 require(ggplot2)
@@ -874,16 +874,18 @@ p_phase_2_suppl <- p_phase_2_suppl + ggplot2::facet_wrap(
   labeller = ggplot2::label_wrap_gen(),
   ncol = 4L)
 
-if(!is.null(plot_type)){
-  ggplot2::ggsave(
-    filename = file.path(export_folder, paste0("phase_2_suppl_figure_1.", plot_type)),
-    plot = p_phase_2_suppl,
-    scale = 1.0,
-    width = 16.0,
-    height = 20.0,
-    units = "cm",
-    device = plot_type
-  )
+if (!is.null(fig_plot_type)) {
+  for (plot_type in fig_plot_type) {
+    ggplot2::ggsave(
+      filename = file.path(export_folder, paste0("suppl_figure_phase_2_r1.", plot_type)),
+      plot = p_phase_2_suppl,
+      scale = 1.0,
+      width = 16.0,
+      height = 20.0,
+      units = "cm",
+      device = plot_type
+    )
+  }
 }
 
 
@@ -1072,23 +1074,25 @@ p_phase_3_suppl <- p_phase_3_suppl + ggplot2::facet_wrap(
   labeller = ggplot2::label_wrap_gen(),
   ncol = 3L)
 
-if(!is.null(plot_type)){
-  ggplot2::ggsave(
-    filename = file.path(export_folder, paste0("phase_3_suppl_figure_1.", plot_type)),
-    plot = p_phase_3_suppl,
-    scale = 1.0,
-    width = 16.0,
-    height = 20.0,
-    units = "cm",
-    device = plot_type
-  )
+if (!is.null(fig_plot_type)) {
+  for (plot_type in fig_plot_type) {
+    ggplot2::ggsave(
+      filename = file.path(export_folder, paste0("suppl_figure_phase_3_r1.", plot_type)),
+      plot = p_phase_3_suppl,
+      scale = 1.0,
+      width = 16.0,
+      height = 20.0,
+      units = "cm",
+      device = plot_type
+    )
+  }
 }
 
 
 #### Combine main plots --------------------------------------------------------
 
 p_phase_1 <- p_phase_1 + ggplot2::labs(
-  title = "Phase 1: consensus on reference response maps",
+  title = "Phase 1: consensus on reference filtered images",
   tag = "A.")
 
 p_phase_2 <- p_phase_2 + ggplot2::labs(
@@ -1096,7 +1100,7 @@ p_phase_2 <- p_phase_2 + ggplot2::labs(
   tag = "B.")
 
 p_phase_3 <- p_phase_3 + ggplot2::labs(
-  title = "Phase 3: reproducibility of feature values",
+  title = "Phase 3: reproducibility of features",
   tag = "C.")
 
 p_combined <- egg::ggarrange(
@@ -1104,16 +1108,18 @@ p_combined <- egg::ggarrange(
   nrow=3,
   draw=FALSE)
 
-if(!is.null(plot_type)){
-  ggplot2::ggsave(
-    filename = file.path(export_folder, paste0("main_figure_1.", plot_type)),
-    plot = p_combined,
-    scale = 1.0,
-    width = 16.0,
-    height = 12.0,
-    units = "cm",
-    device = plot_type
-  )
+if(!is.null(fig_plot_type)){
+  for (plot_type in fig_plot_type) {
+    ggplot2::ggsave(
+      filename = file.path(export_folder, paste0("figure_main_results_r1.", plot_type)),
+      plot = p_combined,
+      scale = 1.0,
+      width = 16.0,
+      height = 12.0,
+      units = "cm",
+      device = plot_type
+    )
+  }
 }
 
 
@@ -1167,18 +1173,20 @@ icc_table$abbr_name <- factor(
   levels = statistic_features$abbr_name
 )
 
-lapply(
-  split(icc_table, by = "filter_id"),
-  function(x) {
-    data.table::fwrite(
-      x = dcast(
-        data = x,
-        abbr_name ~ modality,
-        value.var = "icc_range"
-      ),
-      file = file.path(export_folder, paste0("suppl_table_full_reproducibility_", head(x$filter_id, n = 1L), ".csv"))
-    )
-  }
+invisible(
+  lapply(
+    split(icc_table, by = "filter_id"),
+    function(x) {
+      data.table::fwrite(
+        x = dcast(
+          data = x,
+          abbr_name ~ modality,
+          value.var = "icc_range"
+        ),
+        file = file.path(export_folder, paste0("suppl_table_full_reproducibility_", head(x$filter_id, n = 1L), ".csv"))
+      )
+    }
+  )
 )
 
 
@@ -1349,10 +1357,12 @@ reference_data[
   )
 ]
 
-lapply(
-  split(reference_data, by="feature"),
-  .export_reference_values,
-  export_folder = export_folder
+invisible(
+  lapply(
+    split(reference_data, by="feature"),
+    .export_reference_values,
+    export_folder = export_folder
+  )
 )
 
 
@@ -1392,8 +1402,10 @@ lapply(
   return(invisible(NULL))
 }
 
-lapply(
-  split(merge(x = reference_data, y = statistic_features, by.x = "feature", by.y = "name"), by = "filter_id"),
-  .export_to_python_unit_test,
-  export_folder = export_folder
+invisible(
+  lapply(
+    split(merge(x = reference_data, y = statistic_features, by.x = "feature", by.y = "name"), by = "filter_id"),
+    .export_to_python_unit_test,
+    export_folder = export_folder
+  )
 )
